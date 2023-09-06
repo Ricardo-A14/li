@@ -1,0 +1,93 @@
+.word_c {
+    max-width: 1400px;
+    margin: 0 auto;
+    /* background-color: brown; */
+}
+
+.word {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    height: 30px;
+    margin: 10px auto;
+    /* background-color: chartreuse; */
+}
+
+.word span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 100%;
+    margin: 0 4px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 8px;
+    color: black;
+    background-color: #60d4ea;
+}
+
+
+.word .meaning_word {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    height: 100%;
+    font-size: 14px;
+    margin: 0 4px;
+    border-radius: 8px;
+    font-weight: bolder;
+    color: black;
+    background-color: #60d4ea;
+}
+
+.word .meaning_word .defi {
+    margin: 0 4px;
+    /* background-color: brown; */
+}
+
+.word .meaning_word .index {
+    margin: 0 4px;
+    width: 18px;
+    height: 18px;
+    text-align: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: chartreuse;
+}
+
+@media(max-width: 760px) {
+    .word {
+        width: 80%;
+    }
+}
+
+@media(max-width: 660px) {
+    .word {
+        width: 100%;
+    }
+}
+
+@media(max-width: 530px) {
+    .word {
+        font-size: 14px;
+    }
+
+    .word .meaning_word {
+        width: 270px;
+    }
+}
+
+@media(max-width: 510px) {
+    .word {
+        height: 40px;
+    }
+}
+
+@media(max-width: 370px) {
+    .word {
+        height: 60px;
+    }
+}
