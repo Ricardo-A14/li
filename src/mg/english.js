@@ -30,8 +30,6 @@ const words = [
     { word: 'And', pronunciation: '', definition: 'Y' },
     { word: 'Again', pronunciation: 'eguen', definition: 'Otra vez' },
     { word: 'Against', pronunciation: 'eguenst', definition: 'En contra' },
-
-
     { word: 'Agreement', pronunciation: 'agriment', definition: 'Acuerdo' },
     { word: 'Aim', pronunciation: 'em', definition: 'Apuntar' },
     { word: 'Air', pronunciation: 'er', definition: 'Aire' },
@@ -39,6 +37,17 @@ const words = [
     { word: 'All', pronunciation: 'oll', definition: 'Todo - todos' },
     { word: 'Allergy', pronunciation: 'aleryi', definition: 'Alergia' },
     { word: 'Allow', pronunciation: 'alau', definition: 'Permitir' },
+    { word: 'Also', pronunciation: 'olso', definition: 'También' },
+    { word: 'Although', pronunciation: 'oldo', definition: 'Aunque' },
+    { word: 'Always', pronunciation: 'olwis', definition: 'Siempre' },
+    { word: 'America', pronunciation: 'america', definition: 'America' },
+    { word: 'Ammunition', pronunciation: 'emiunichen', definition: 'Munición' },
+    { word: 'Analgesic', pronunciation: 'enal-yisik', definition: 'Analgésico' },
+    { word: 'Analysis', pronunciation: 'enalisis', definition: 'Análisis' },
+    { word: 'Analytics', pronunciation: 'enalidiks', definition: 'Análitica' },
+    { word: 'Animal', pronunciation: 'enemel', definition: 'Animal' },
+    { word: 'Answer', pronunciation: 'enser', definition: 'Respuesta' },
+    { word: 'Antiseptic', pronunciation: 'entiseptik', definition: 'Antiséptico' },
 
 
     { word: 'Day', pronunciation: 'dey', definition: 'Día' },
@@ -100,7 +109,7 @@ const findWord = words.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'agile';
+    var word = 'and';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {

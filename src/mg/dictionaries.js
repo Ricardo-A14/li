@@ -883,7 +883,6 @@ deal
 Metrics
 Report
 Analysis
-Analyze
 Forecast
 Budget
 Investment
@@ -900,6 +899,7 @@ burn
 spell
 spend
 broadcast
+Analyze
 access
 fix
 provide
@@ -1512,14 +1512,16 @@ const setWords = new Set(group);
 const allWords = Array.from(setWords).sort();
 
 
-const findWord = allWords.includes(``);
-const findRV = regularVerbs.includes(`aim`);
+const findWord = allWords.includes(`analyze`);
+const findRV = regularVerbs.includes(`answer`);
 const findIV = irregularVerbs.includes(``);
+const find = technology.includes(`analyze`);
 
 
-// console.log(`¿Does the word exist in the dictionary? [${findWord}]`);
+console.log(`¿Does the word exist in the dictionary? [${findWord}]`);
 // console.log(`¿Does the word exist in regular verbs? [${findRV}]`);
 // console.log(`¿Does the word exist in irregular verbs? [${findIV}]`);
+// console.log(`Word [${find}]`);
 
 // console.log(`List of verbs: ${listOfdVerbs.length}`);
 
@@ -1549,6 +1551,23 @@ const DeleteWords = () => {
     allWords.splice(0, 1);
     allWords.splice(0, 1);
     allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+
+
+
 
     console.log(allWords.length);
     console.log(allWords);
