@@ -1565,6 +1565,8 @@ const DeleteWords = () => {
     allWords.splice(0, 1);
     allWords.splice(0, 1);
     allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
 
 
 

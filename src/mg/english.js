@@ -48,6 +48,8 @@ const words = [
     { word: 'Animal', pronunciation: 'enemel', definition: 'Animal' },
     { word: 'Answer', pronunciation: 'enser', definition: 'Respuesta' },
     { word: 'Antiseptic', pronunciation: 'entiseptik', definition: 'Antiséptico' },
+    { word: 'Any', pronunciation: 'eny', definition: 'Cualquier' },
+    { word: 'Anyone', pronunciation: 'eni-uan', definition: 'Alguien' },
 
 
     { word: 'Day', pronunciation: 'dey', definition: 'Día' },
