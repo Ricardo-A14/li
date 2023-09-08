@@ -51,13 +51,25 @@ const words = [
     { word: 'Any', pronunciation: 'eny', definition: 'Cualquier' },
     { word: 'Anyone', pronunciation: 'eni-uan', definition: 'Alguien' },
 
+    { word: 'Anything', pronunciation: 'eniting', definition: 'Cualquier cosa' },
+    { word: 'Anywhere', pronunciation: 'eniuer', definition: 'En cualquier lugar' },
+    { word: 'Appear', pronunciation: 'apir', definition: 'Aparecer' },
+    { word: 'Application', pronunciation: 'aplikeichon', definition: 'Aplicación - Solicitud' },
+    { word: 'Application', pronunciation: 'aplikeichon', definition: 'Aplicación - Solicitud' },
+    { word: 'Are', pronunciation: 'ar', definition: 'Son' },
+    { word: 'Area', pronunciation: '', definition: 'Área' },
+    { word: 'Artificial', pronunciation: 'arde-fishol', definition: 'Artificial' },
+    { word: 'As', pronunciation: 'as', definition: 'Como' },
+    { word: 'Abide', pronunciation: 'abaid', definition: 'cumplir' },
+    { word: 'Aspect', pronunciation: 'aspect', definition: 'Aspecto' },
+    { word: 'At', pronunciation: 'at', definition: 'Aspecto' },
+
 
     { word: 'Day', pronunciation: 'dey', definition: 'Día' },
     { word: 'Reach', pronunciation: 'ruich', definition: 'Alcanzar' },
     { word: 'Early', pronunciation: 'erly', definition: 'Temprano' },
     { word: 'Every', pronunciation: 'ebri', definition: 'Cada' },
     { word: 'Late', pronunciation: 'leit', definition: 'Tarde' },
-    { word: 'Abide', pronunciation: 'abaid', definition: 'cumplir' },
     { word: 'Shower', pronunciation: 'shouer', definition: 'Ducha' },
     { word: 'My', pronunciation: 'may', definition: 'Mi' },
     { word: 'Breakfast', pronunciation: '', definition: 'Desayuno' },
@@ -111,7 +123,7 @@ const findWord = words.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'and';
+    var word = '';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {

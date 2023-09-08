@@ -898,6 +898,7 @@ spill
 burn
 spell
 spend
+organize
 broadcast
 Analyze
 access
@@ -924,7 +925,6 @@ appreciate
 approach
 approve
 argue
-arise
 arrange
 arrive
 ask
@@ -1504,79 +1504,76 @@ const allConvertedVerbs = [...convertIrreVerbs, ...convertReVerbs].sort();
 const checkVerbs = new Set(allConvertedVerbs);
 const listOfdVerbs = Array.from(checkVerbs);
 
-
-const group = [...convertWord1, ...convertWords2, ...convertWords3, ...convertSurvival, ...convertCartography, ...convertTechnology, ...convertPhrasalVerbs, ...listOfdVerbs];
-
-
-const setWords = new Set(group);
-const allWords = Array.from(setWords).sort();
+const groupOfWords = [...convertWord1, ...convertWords2, convertWords3, ...convertSurvival, ...convertCartography, ...convertTechnology];
+const groupVerbWords = [...convertWord1, ...convertWords2, ...convertWords3, ...convertSurvival, ...convertCartography, ...convertTechnology, ...convertPhrasalVerbs, ...listOfdVerbs];
 
 
-const findWord = allWords.includes(`analyze`);
-const findRV = regularVerbs.includes(`answer`);
-const findIV = irregularVerbs.includes(``);
-const find = technology.includes(`analyze`);
+const setWords = new Set(groupOfWords);
+const words = Array.from(setWords).sort();
+
+const setVerbWords = new Set(groupVerbWords);
+const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
-console.log(`¿Does the word exist in the dictionary? [${findWord}]`);
+const findWord = allWordsAndVerbs.includes(`are`);
+const findRV = regularVerbs.includes(`augment`);
+const findIV = irregularVerbs.includes(`ask`);
+const find = technology.includes(`augment`);
+
+
+// console.log(`¿Does the word exist in the dictionary? [${findWord}]`);
 // console.log(`¿Does the word exist in regular verbs? [${findRV}]`);
 // console.log(`¿Does the word exist in irregular verbs? [${findIV}]`);
-// console.log(`Word [${find}]`);
+console.log(`Word [${find}]`);
 
 // console.log(`List of verbs: ${listOfdVerbs.length}`);
 
 const DeleteWords = () => {
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
+
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
+    words.splice(0, 1);
 
 
 
-
-    console.log(allWords.length);
-    console.log(allWords);
+    console.log(words.length);
+    console.log(words);
+    // console.log(allWordsAndVerbs.length);
+    // console.log(allWordsAndVerbs);
 }
 DeleteWords();
 
 
 
 
-export default allWords;
+export default allWordsAndVerbs;
