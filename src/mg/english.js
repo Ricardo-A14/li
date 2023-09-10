@@ -1,5 +1,5 @@
 
-import words from "./dictionaries";
+import { allWords } from "./dictionaries";
 
 
 const words = [
@@ -55,7 +55,6 @@ const words = [
     { word: 'Anywhere', pronunciation: 'eniuer', definition: 'En cualquier lugar' },
     { word: 'Appear', pronunciation: 'apir', definition: 'Aparecer' },
     { word: 'Application', pronunciation: 'aplikeichon', definition: 'Aplicación - Solicitud' },
-    { word: 'Application', pronunciation: 'aplikeichon', definition: 'Aplicación - Solicitud' },
     { word: 'Are', pronunciation: 'ar', definition: 'Son' },
     { word: 'Area', pronunciation: '', definition: 'Área' },
     { word: 'Artificial', pronunciation: 'arde-fishol', definition: 'Artificial' },
@@ -63,6 +62,19 @@ const words = [
     { word: 'Abide', pronunciation: 'abaid', definition: 'cumplir' },
     { word: 'Aspect', pronunciation: 'aspect', definition: 'Aspecto' },
     { word: 'At', pronunciation: 'at', definition: 'Aspecto' },
+    { word: 'Automation', pronunciation: 'oro-meichen', definition: 'Automatización' },
+    { word: 'Avalanche', pronunciation: 'ava-lantsh', definition: 'Avalancha' },
+    { word: 'Away', pronunciation: 'e-uey', definition: 'Lejos' },
+    { word: 'Axe', pronunciation: 'aks', definition: 'Hacha' },
+    { word: 'Backpack', pronunciation: 'bak-pak', definition: 'Mochila' },
+    { word: 'Backup', pronunciation: 'bak-up', definition: 'Respaldo' },
+    { word: 'Bandage', pronunciation: 'bendich', definition: 'Vendaje' },
+    { word: 'Bread', pronunciation: 'bred', definition: 'Pan' },
+    { word: 'Boxing', pronunciation: 'boxing', definition: 'Boxeo' },
+    { word: 'Bear', pronunciation: 'ber', definition: 'Oso' },
+    { word: 'Because', pronunciation: 'bicos', definition: 'Porque' },
+    { word: 'Before', pronunciation: 'befor', definition: 'antes' },
+    { word: 'Between', pronunciation: 'be-tuin', definition: 'Entre' },
 
 
     { word: 'Day', pronunciation: 'dey', definition: 'Día' },
@@ -76,7 +88,6 @@ const words = [
     { word: 'Egg', pronunciation: 'eg', definition: 'Huevo' },
     { word: 'Coffee', pronunciation: 'cofi', definition: 'Café' },
     { word: 'Chocolate', pronunciation: '', definition: 'Chocolate' },
-    { word: 'Bread', pronunciation: 'bred', definition: 'Pan' },
     { word: 'Orange', pronunciation: 'oranch', definition: 'Naranja' },
     { word: 'Juice', pronunciation: '', definition: 'Jugo' },
     { word: 'Kookie', pronunciation: 'kuki', definition: 'Galleta' },
@@ -93,7 +104,6 @@ const words = [
     { word: 'Rice', pronunciation: 'raiz', definition: 'Arroz' },
     { word: 'Until', pronunciation: 'antil', definition: 'Hasta' },
     { word: 'Train', pronunciation: 'trein', definition: 'Entrenar - Tren' },
-    { word: 'Boxing', pronunciation: 'boxing', definition: 'Boxeo' },
     { word: 'Climb', pronunciation: 'claim', definition: 'Escalar' },
     { word: 'Dinner', pronunciation: 'diner', definition: 'Cena' },
     { word: 'Video', pronunciation: 'vidio', definition: 'Video' },
@@ -123,7 +133,7 @@ const findWord = words.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = '';
+    var word = 'before';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {
@@ -144,7 +154,7 @@ const FindRepeatedWords = () => {
 
 FindRepeatedWords();
 
-console.log(`Number of words: ${findWord.length}`);
+// console.log(`Number of words: ${findWord.length}`);
 
 
 export { words };

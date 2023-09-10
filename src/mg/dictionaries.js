@@ -894,10 +894,12 @@ shave
 learn
 lean
 dream
+increase
 spill
 burn
 spell
 spend
+back
 organize
 broadcast
 Analyze
@@ -939,7 +941,6 @@ base
 bear
 beat
 become
-begin
 believe
 belong
 bend
@@ -1497,6 +1498,7 @@ const convertSurvival = survival.split('\n');
 const convertCartography = cartography.split('\n');
 const convertTechnology = technology.split('\n');
 
+
 const convertReVerbs = regularVerbs.split(`\n`);
 const convertIrreVerbs = irregularVerbs.split(`\n`);
 const convertPhrasalVerbs = phrasalVerbs.split('\n');
@@ -1504,76 +1506,101 @@ const allConvertedVerbs = [...convertIrreVerbs, ...convertReVerbs].sort();
 const checkVerbs = new Set(allConvertedVerbs);
 const listOfdVerbs = Array.from(checkVerbs);
 
+
 const groupOfWords = [...convertWord1, ...convertWords2, convertWords3, ...convertSurvival, ...convertCartography, ...convertTechnology];
 const groupVerbWords = [...convertWord1, ...convertWords2, ...convertWords3, ...convertSurvival, ...convertCartography, ...convertTechnology, ...convertPhrasalVerbs, ...listOfdVerbs];
 
 
+
 const setWords = new Set(groupOfWords);
-const words = Array.from(setWords).sort();
+const allWords = Array.from(setWords).sort();
 
 const setVerbWords = new Set(groupVerbWords);
 const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
-const findWord = allWordsAndVerbs.includes(`are`);
-const findRV = regularVerbs.includes(`augment`);
-const findIV = irregularVerbs.includes(`ask`);
-const find = technology.includes(`augment`);
+
+const findWord = allWordsAndVerbs.includes(`increase`);
+console.log(`¿Does the word exist in the dictionary? [${findWord}]`);
+
+const findRV = convertReVerbs.includes(`be`);
+const findIndexRV = convertReVerbs.indexOf('be');
+// console.log(`Regular verbs [${findRV}]`);
+// console.log(findIndexRV);
+
+const findIV = convertIrreVerbs.includes(`begin`);
+const findIndexIV = convertIrreVerbs.indexOf(`begin`);
+// console.log(`Iregular verbs [${findIV}]`);
+// console.log(findIndexIV);
 
 
-// console.log(`¿Does the word exist in the dictionary? [${findWord}]`);
-// console.log(`¿Does the word exist in regular verbs? [${findRV}]`);
-// console.log(`¿Does the word exist in irregular verbs? [${findIV}]`);
-console.log(`Word [${find}]`);
 
 // console.log(`List of verbs: ${listOfdVerbs.length}`);
 
+
 const DeleteWords = () => {
 
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
-    words.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
 
 
 
-    console.log(words.length);
-    console.log(words);
+    console.log(allWords.length);
+    console.log(allWords);
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }
 DeleteWords();
 
+const find = allWords.includes(``);
+console.log(`Word [${find}]`);
 
 
-
-export default words;
+export { allWords };
