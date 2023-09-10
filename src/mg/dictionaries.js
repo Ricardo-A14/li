@@ -1576,4 +1576,4 @@ DeleteWords();
 
 
 
-export default allWordsAndVerbs;
+export default words;

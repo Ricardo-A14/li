@@ -1,5 +1,5 @@
 
-import allWords from "./dictionaries";
+import words from "./dictionaries";
 
 
 const words = [
