@@ -152,7 +152,7 @@ const FindRepeatedWords = () => {
     console.log(`Repeated position: ${repeatedPosition}`);
 }
 
-FindRepeatedWords();
+// FindRepeatedWords();
 
 // console.log(`Number of words: ${findWord.length}`);
 

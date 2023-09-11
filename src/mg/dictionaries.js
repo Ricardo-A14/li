@@ -1521,7 +1521,7 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 const findWord = allWordsAndVerbs.includes(`increase`);
-console.log(`¿Does the word exist in the dictionary? [${findWord}]`);
+// console.log(`¿Does the word exist in the dictionary? [${findWord}]`);
 
 const findRV = convertReVerbs.includes(`be`);
 const findIndexRV = convertReVerbs.indexOf('be');
@@ -1597,10 +1597,10 @@ const DeleteWords = () => {
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }
-DeleteWords();
+// DeleteWords();
 
 const find = allWords.includes(``);
-console.log(`Word [${find}]`);
+// console.log(`Word [${find}]`);
 
 
 export { allWords };
