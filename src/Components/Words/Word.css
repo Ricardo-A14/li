@@ -27,6 +27,12 @@
     background-color: #60d4ea;
 }
 
+.talk {
+    width: 40px;
+    height: 20px;
+    color: azure;
+    background-color: slategray;
+}
 
 .word .meaning_word {
     display: flex;
