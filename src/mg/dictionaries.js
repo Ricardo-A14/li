@@ -555,7 +555,8 @@ survival
 gear
 knife
 rope
-backpack
+backpac
+bonfire
 tent
 cliff
 emergency
@@ -1520,18 +1521,16 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 
-const findWord = allWordsAndVerbs.includes(`increase`);
-// console.log(`¿Does the word exist in the dictionary? [${findWord}]`);
+const findWord = allWordsAndVerbs.includes(`bonfire`);
+console.log(`¿Does the word exist in the dictionary? [${findWord}]`);
 
-const findRV = convertReVerbs.includes(`be`);
-const findIndexRV = convertReVerbs.indexOf('be');
-// console.log(`Regular verbs [${findRV}]`);
-// console.log(findIndexRV);
+const findRV = convertReVerbs.includes(`call`);
+const findIndexRV = convertReVerbs.indexOf('call');
+// alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
 const findIV = convertIrreVerbs.includes(`begin`);
 const findIndexIV = convertIrreVerbs.indexOf(`begin`);
-// console.log(`Iregular verbs [${findIV}]`);
-// console.log(findIndexIV);
+// alert(`Iregular verbs [${findIV}] index: ${findIndexIV}`);
 
 
 
@@ -1589,6 +1588,21 @@ const DeleteWords = () => {
     allWords.splice(0, 1);
     allWords.splice(0, 1);
     allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
 
 
 
@@ -1597,7 +1611,7 @@ const DeleteWords = () => {
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }
-// DeleteWords();
+DeleteWords();
 
 const find = allWords.includes(``);
 // console.log(`Word [${find}]`);

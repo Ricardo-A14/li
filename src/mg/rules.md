@@ -20,13 +20,22 @@
 
 # Family, friends.
 
+
+## Pronombres personales.
+
 ## Verbos.
 
 Son palabras que describen una acción; ejemplo: cantar, caminar, nadar, pintar...
 
-## Adjetivos. ( PENDIENTE )
+## Sustantivo.
 
-## Sustantivos. ( PENDIENTE )
+## Adjetivo.
+
+## Artículo.
+
+## Preposición
+
+## Conjunción.
 
 ## Types of verbs (Tipos de verbos).
 

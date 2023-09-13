@@ -13,15 +13,8 @@ const words = [
     { word: 'Him', pronunciation: 'him', definition: 'Él' },
     { word: 'Her', pronunciation: 'ger', definition: 'Ella' },
     { word: 'Then', pronunciation: 'den', definition: 'Entonces' },
-    { word: 'Act', pronunciation: 'act', definition: 'Actuar' },
-    { word: 'Add', pronunciation: 'ad', definition: 'Agregar' },
     { word: 'About', pronunciation: 'abaut', definition: 'Acerca de' },
-    { word: 'Admire', pronunciation: 'edmaier', definition: 'Admirar' },
-    { word: 'Admite', pronunciation: 'edmit', definition: 'Admitir' },
     { word: 'Advertisement', pronunciation: 'advertuaisment', definition: 'anuncio' },
-    { word: 'Advise', pronunciation: 'edvais', definition: 'Aconsejar' },
-    { word: 'Accept', pronunciation: 'aksept', definition: 'Aceptar' },
-    { word: 'Access', pronunciation: 'akses', definition: 'Acceso' },
     { word: 'Aerial', pronunciation: 'er-ial', definition: 'Aéreo' },
     { word: 'After', pronunciation: 'after', definition: 'Despues' },
     { word: 'Agile', pronunciation: 'ayol', definition: 'Ágil' },
@@ -50,7 +43,6 @@ const words = [
     { word: 'Antiseptic', pronunciation: 'entiseptik', definition: 'Antiséptico' },
     { word: 'Any', pronunciation: 'eny', definition: 'Cualquier' },
     { word: 'Anyone', pronunciation: 'eni-uan', definition: 'Alguien' },
-
     { word: 'Anything', pronunciation: 'eniting', definition: 'Cualquier cosa' },
     { word: 'Anywhere', pronunciation: 'eniuer', definition: 'En cualquier lugar' },
     { word: 'Appear', pronunciation: 'apir', definition: 'Aparecer' },
@@ -66,6 +58,8 @@ const words = [
     { word: 'Avalanche', pronunciation: 'ava-lantsh', definition: 'Avalancha' },
     { word: 'Away', pronunciation: 'e-uey', definition: 'Lejos' },
     { word: 'Axe', pronunciation: 'aks', definition: 'Hacha' },
+
+
     { word: 'Backpack', pronunciation: 'bak-pak', definition: 'Mochila' },
     { word: 'Backup', pronunciation: 'bak-up', definition: 'Respaldo' },
     { word: 'Bandage', pronunciation: 'bendich', definition: 'Vendaje' },
@@ -75,6 +69,17 @@ const words = [
     { word: 'Because', pronunciation: 'bicos', definition: 'Porque' },
     { word: 'Before', pronunciation: 'befor', definition: 'antes' },
     { word: 'Between', pronunciation: 'be-tuin', definition: 'Entre' },
+
+    { word: 'Big', pronunciation: 'big', definition: 'Grande' },
+    { word: 'Binoculars', pronunciation: 'banakiulers', definition: 'Binoculares' },
+    { word: 'Boots', pronunciation: 'buts', definition: 'Botas' },
+    { word: 'Bottle', pronunciation: '', definition: 'Botella' },
+    { word: 'Budget', pronunciation: 'bayet', definition: 'Presupuesto' },
+    { word: 'Bug net', pronunciation: 'bag-net', definition: 'Toldillo' },
+    { word: 'But', pronunciation: 'bat', definition: 'Pero' },
+    { word: 'By', pronunciation: 'bay', definition: 'Por - Mediante - Según - Junto a' },
+    { word: 'Camera', pronunciation: '', definition: 'Cámara' },
+    { word: 'Campfire', pronunciation: 'camp-faier', definition: 'Hoguera - Fogata' },
 
 
     { word: 'Day', pronunciation: 'dey', definition: 'Día' },
