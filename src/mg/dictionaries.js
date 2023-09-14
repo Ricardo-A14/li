@@ -740,7 +740,6 @@ Harbor
 Land
 cover
 National
-Conserve
 area
 Wilderness
 Protect
@@ -902,6 +901,7 @@ spell
 spend
 back
 organize
+conserve
 broadcast
 Analyze
 access
@@ -1521,24 +1521,71 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 
-const findWord = allWordsAndVerbs.includes(`bonfire`);
-console.log(`¿Does the word exist in the dictionary? [${findWord}]`);
+const findWord = allWordsAndVerbs.includes(`conserve`);
+// alert(`¿Does the word exist in the dictionary? [${findWord}]`);
 
-const findRV = convertReVerbs.includes(`call`);
-const findIndexRV = convertReVerbs.indexOf('call');
+const findRV = convertReVerbs.includes(`cross`);
+const findIndexRV = convertReVerbs.indexOf('cross');
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
-const findIV = convertIrreVerbs.includes(`begin`);
-const findIndexIV = convertIrreVerbs.indexOf(`begin`);
+const findIV = convertIrreVerbs.includes(`conserve`);
+const findIndexIV = convertIrreVerbs.indexOf(`conserve`);
 // alert(`Iregular verbs [${findIV}] index: ${findIndexIV}`);
 
+const findIn = convertCartography.includes('conserve');
+const findIndexIn = convertCartography.indexOf(`conserve`);
+// alert(`Word: ${findIn}, Index: ${findIndexIn}`);
 
 
 // console.log(`List of verbs: ${listOfdVerbs.length}`);
+// alert(`List of cartography: ${convertCartography.length}`);
 
 
 const DeleteWords = () => {
 
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
     allWords.splice(0, 1);
     allWords.splice(0, 1);
     allWords.splice(0, 1);

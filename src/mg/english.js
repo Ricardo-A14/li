@@ -58,8 +58,6 @@ const words = [
     { word: 'Avalanche', pronunciation: 'ava-lantsh', definition: 'Avalancha' },
     { word: 'Away', pronunciation: 'e-uey', definition: 'Lejos' },
     { word: 'Axe', pronunciation: 'aks', definition: 'Hacha' },
-
-
     { word: 'Backpack', pronunciation: 'bak-pak', definition: 'Mochila' },
     { word: 'Backup', pronunciation: 'bak-up', definition: 'Respaldo' },
     { word: 'Bandage', pronunciation: 'bendich', definition: 'Vendaje' },
@@ -69,7 +67,6 @@ const words = [
     { word: 'Because', pronunciation: 'bicos', definition: 'Porque' },
     { word: 'Before', pronunciation: 'befor', definition: 'antes' },
     { word: 'Between', pronunciation: 'be-tuin', definition: 'Entre' },
-
     { word: 'Big', pronunciation: 'big', definition: 'Grande' },
     { word: 'Binoculars', pronunciation: 'banakiulers', definition: 'Binoculares' },
     { word: 'Boots', pronunciation: 'buts', definition: 'Botas' },
@@ -80,9 +77,41 @@ const words = [
     { word: 'By', pronunciation: 'bay', definition: 'Por - Mediante - Según - Junto a' },
     { word: 'Camera', pronunciation: '', definition: 'Cámara' },
     { word: 'Campfire', pronunciation: 'camp-faier', definition: 'Hoguera - Fogata' },
-
-
+    { word: 'Coffee', pronunciation: 'cofi', definition: 'Café' },
+    { word: 'Chocolate', pronunciation: '', definition: 'Chocolate' },
+    { word: 'Chicken', pronunciation: 'chiken', definition: 'Pollo' },
+    { word: 'Canyon', pronunciation: 'kanien', definition: 'Cañón' },
+    { word: 'Car', pronunciation: 'car', definition: 'Carro' },
+    { word: 'Carabiner', pronunciation: 'karabiner', definition: 'Mosquetón' },
+    { word: 'Cartographer', pronunciation: 'kartagrefer', definition: 'Cartógrafo' },
+    { word: 'Cartography', pronunciation: 'kartagrefi', definition: 'Cartografía' },
+    { word: 'Case', pronunciation: 'kes', definition: 'Caso' },
+    { word: 'Charger', pronunciation: 'charyer', definition: 'Cargador' },
+    { word: 'City', pronunciation: 'siti', definition: 'Ciudad' },
+    { word: 'Cliff', pronunciation: 'klif', definition: 'Acantilado' },
+    { word: 'Harness', pronunciation: 'arnes', definition: 'Arnés' },
+    { word: 'Helmet', pronunciation: 'elmet', definition: 'Casco' },
+    { word: 'Rope', pronunciation: 'rop', definition: 'Soga' },
+    { word: 'Clothes', pronunciation: 'klotz', definition: 'Ropa' },
+    { word: 'Cloud', pronunciation: 'kloud', definition: 'Nube' },
+    { word: 'Code', pronunciation: 'koud', definition: 'Código' },
+    { word: 'Collaboration', pronunciation: 'colaboreichen', definition: 'Colaboración' },
+    { word: 'Company', pronunciation: 'campani', definition: 'Compañía' },
+    { word: 'Compass', pronunciation: 'kampes', definition: 'Brújula' },
+    { word: 'Computer', pronunciation: 'kampiurer', definition: 'Computador' },
+    { word: 'Conferece', pronunciation: 'kanfrens', definition: 'Conferencia' },
+    { word: 'Container', pronunciation: 'kenteiner', definition: 'Contenedor' },
+    { word: 'Content', pronunciation: 'kanten', definition: 'Contenido' },
+    { word: 'Contour', pronunciation: 'kan-tor', definition: 'Contorno' },
+    { word: 'Coordinates', pronunciation: 'coordenets', definition: 'Coordenadas' },
+    { word: 'Cost', pronunciation: 'cost', definition: 'Costo' },
+    { word: 'Course', pronunciation: 'kors', definition: 'Curso' },
+    { word: 'Data', pronunciation: 'deira', definition: 'Datos' },
+    { word: 'Database', pronunciation: 'dara-beis', definition: 'Base de datos' },
+    { word: 'Datum', pronunciation: 'dadem', definition: 'Dato' },
     { word: 'Day', pronunciation: 'dey', definition: 'Día' },
+
+
     { word: 'Reach', pronunciation: 'ruich', definition: 'Alcanzar' },
     { word: 'Early', pronunciation: 'erly', definition: 'Temprano' },
     { word: 'Every', pronunciation: 'ebri', definition: 'Cada' },
@@ -91,8 +120,6 @@ const words = [
     { word: 'My', pronunciation: 'may', definition: 'Mi' },
     { word: 'Breakfast', pronunciation: '', definition: 'Desayuno' },
     { word: 'Egg', pronunciation: 'eg', definition: 'Huevo' },
-    { word: 'Coffee', pronunciation: 'cofi', definition: 'Café' },
-    { word: 'Chocolate', pronunciation: '', definition: 'Chocolate' },
     { word: 'Orange', pronunciation: 'oranch', definition: 'Naranja' },
     { word: 'Juice', pronunciation: '', definition: 'Jugo' },
     { word: 'Kookie', pronunciation: 'kuki', definition: 'Galleta' },
@@ -103,13 +130,11 @@ const words = [
     { word: 'Food', pronunciation: 'Fud', definition: 'Comida' },
     { word: 'Meat', pronunciation: 'mit', definition: 'Carne' },
     { word: 'Fish', pronunciation: 'fish', definition: 'Pez' },
-    { word: 'Chicken', pronunciation: 'chiken', definition: 'Pollo' },
     { word: 'Soda', pronunciation: 'soda', definition: 'Gaseosa' },
     { word: 'of', pronunciation: 'of', definition: 'De' },
     { word: 'Rice', pronunciation: 'raiz', definition: 'Arroz' },
     { word: 'Until', pronunciation: 'antil', definition: 'Hasta' },
     { word: 'Train', pronunciation: 'trein', definition: 'Entrenar - Tren' },
-    { word: 'Climb', pronunciation: 'claim', definition: 'Escalar' },
     { word: 'Dinner', pronunciation: 'diner', definition: 'Cena' },
     { word: 'Video', pronunciation: 'vidio', definition: 'Video' },
     { word: 'Game', pronunciation: 'gueim', definition: 'Juego' },
@@ -119,7 +144,6 @@ const words = [
     { word: 'Family', pronunciation: 'femly', definition: 'Familia' },
     { word: 'Friend', pronunciation: 'fren', definition: 'Amigo' },
     { word: 'Sometimes', pronunciation: 'somtaims', definition: 'A veces' },
-    { word: 'Camp', pronunciation: 'camp', definition: 'Acampar - campamento - campo' },
     { word: 'On', pronunciation: 'an', definition: 'En' },
     { word: 'In', pronunciation: 'in', definition: 'En' },
     { word: 'Night', pronunciation: 'nait', definition: 'Noche' },
@@ -138,7 +162,7 @@ const findWord = words.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'before';
+    var word = 'day';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {
