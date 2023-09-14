@@ -1539,6 +1539,7 @@ const findIndexIn = convertCartography.indexOf(`conserve`);
 // alert(`List of cartography: ${convertCartography.length}`);
 
 
+/*--- DELETE WORDS ---*/
 const DeleteWords = () => {
 
     allWords.splice(0, 1);
