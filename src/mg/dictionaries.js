@@ -1,4 +1,5 @@
 
+/*--- GETTING WORDS ---*/
 const words1 = `the
 of
 and
@@ -1491,36 +1492,34 @@ set
 shook
 shed`;
 
-
+/*--- STORING VERBS AND WORDS IN ARRAYS ---*/
 const convertWord1 = words1.split('\n');
 const convertWords2 = words2.split('\n');
 const convertWords3 = words3.split('\n');
 const convertSurvival = survival.split('\n');
 const convertCartography = cartography.split('\n');
 const convertTechnology = technology.split('\n');
-
-
 const convertReVerbs = regularVerbs.split(`\n`);
 const convertIrreVerbs = irregularVerbs.split(`\n`);
 const convertPhrasalVerbs = phrasalVerbs.split('\n');
+
+/*--- GROUPING REGULAR VERBS AND IRREGULAR VERBS ---*/
 const allConvertedVerbs = [...convertIrreVerbs, ...convertReVerbs].sort();
 const checkVerbs = new Set(allConvertedVerbs);
 const listOfdVerbs = Array.from(checkVerbs);
 
-
+/*--- GROUPING WORDS ---*/
 const groupOfWords = [...convertWord1, ...convertWords2, convertWords3, ...convertSurvival, ...convertCartography, ...convertTechnology];
-const groupVerbWords = [...convertWord1, ...convertWords2, ...convertWords3, ...convertSurvival, ...convertCartography, ...convertTechnology, ...convertPhrasalVerbs, ...listOfdVerbs];
-
-
-
 const setWords = new Set(groupOfWords);
 const allWords = Array.from(setWords).sort();
 
+/*--- GROUPING VERBS AND WORDS ---*/
+const groupVerbWords = [...convertWord1, ...convertWords2, ...convertWords3, ...convertSurvival, ...convertCartography, ...convertTechnology, ...convertPhrasalVerbs, ...listOfdVerbs];
 const setVerbWords = new Set(groupVerbWords);
 const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
-
+/*--- LOOKING FOR WORDS ---*/
 const findWord = allWordsAndVerbs.includes(`conserve`);
 // alert(`¿Does the word exist in the dictionary? [${findWord}]`);
 
@@ -1535,7 +1534,6 @@ const findIndexIV = convertIrreVerbs.indexOf(`conserve`);
 const findIn = convertCartography.includes('conserve');
 const findIndexIn = convertCartography.indexOf(`conserve`);
 // alert(`Word: ${findIn}, Index: ${findIndexIn}`);
-
 
 // console.log(`List of verbs: ${listOfdVerbs.length}`);
 // alert(`List of cartography: ${convertCartography.length}`);
@@ -1658,7 +1656,7 @@ const DeleteWords = () => {
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }
-DeleteWords();
+// DeleteWords();
 
 const find = allWords.includes(``);
 // console.log(`Word [${find}]`);
