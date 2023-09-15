@@ -11,7 +11,7 @@ recognition.interimResult = true;
 const Word = ({ word, index }) => {
   const [handleWord, setHandleWord] = useState(null);
 
-  const Empezar = (word) => {
+  const Talk = (word) => {
     recognition.start();
 
     let newWord = word.toLowerCase();
@@ -35,13 +35,12 @@ const Word = ({ word, index }) => {
     }, 4000);
   };
 
-  const Escuchar = (word) => {
-
+  const Listen = (word) => {
     const transformWord = new SpeechSynthesisUtterance(word);
     transformWord.rate = 0.7;
-    transformWord.lang = 'en-US';
+    transformWord.lang = "en-US";
     speechSynthesis.speak(transformWord);
-  }
+  };
 
   return (
     <div className="word_c">
@@ -49,11 +48,13 @@ const Word = ({ word, index }) => {
         <span className="word_item">{word.word}</span>
         <div className="pronunciation_container">
           <span className="pronunciation">{word.pronunciation}</span>
-          <button className="listen" onClick={() => Escuchar(word.word)}>Listen</button>
+          <button className="listen" onClick={() => Listen(word.word)}>
+            Listen
+          </button>
         </div>
         <div className="meaning_word">
           <div className="defi">{word.definition}</div>
-          <button className="talk" onClick={() => Empezar(word.word)}>
+          <button className="talk" onClick={() => Talk(word.word)}>
             Talk
           </button>
           <div className="index">{index}</div>
