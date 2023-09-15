@@ -39,6 +39,39 @@
     background-color: #60d4ea;
 }
 
+.talk_container {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 25px;
+    /* background-color: darkgoldenrod; */
+}
+
+.talk {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 20px;
+    font-size: 12px;
+    margin: 4px;
+    color: azure;
+    background-color: slategray;
+}
+
+.index {
+    display: flex;
+    margin: 0 4px;
+    width: 28px;
+    height: 28px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: chartreuse;
+}
+
 .pronunciation {
     width: 60%;
     margin: 0 4px;
@@ -68,17 +101,7 @@
     background-color: #60d4ea;
 }
 
-.talk {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 28px;
-    height: 20px;
-    font-size: 12px;
-    margin: 4px;
-    color: azure;
-    background-color: slategray;
-}
+
 
 
 .defi {
@@ -91,18 +114,7 @@
     /* background-color: brown; */
 }
 
-.index {
-    display: flex;
-    margin: 0 4px;
-    width: 28px;
-    height: 28px;
-    justify-content: center;
-    align-items: center;
-    border-radius: 10px;
-    font-weight: bold;
-    font-size: 12px;
-    background-color: chartreuse;
-}
+
 
 @media(max-width: 760px) {
     .word {
@@ -125,9 +137,9 @@
         width: 270px;
     }
 
-    .index {
+    /* .index {
         display: none;
-    }
+    } */
 }
 
 @media(max-width: 510px) {

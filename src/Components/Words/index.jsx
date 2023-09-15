@@ -54,10 +54,13 @@ const Word = ({ word, index }) => {
         </div>
         <div className="meaning_word">
           <div className="defi">{word.definition}</div>
-          <button className="talk" onClick={() => Talk(word.word)}>
-            Talk
-          </button>
-          <div className="index">{index}</div>
+          <div className="talk_container">
+            <button className="talk" onClick={() => Talk(word.word)}>
+              Talk
+            </button>
+            <div className="index">{index}</div>
+          </div>
+
         </div>
       </div>
     </div>

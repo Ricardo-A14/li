@@ -29,7 +29,6 @@ const words = [
     { word: 'Algorithm', pronunciation: 'algridem', definition: 'Algoritmo' },
     { word: 'All', pronunciation: 'oll', definition: 'Todo - todos' },
     { word: 'Allergy', pronunciation: 'aleryi', definition: 'Alergia' },
-    { word: 'Allow', pronunciation: 'alau', definition: 'Permitir' },
     { word: 'Also', pronunciation: 'olso', definition: 'También' },
     { word: 'Although', pronunciation: 'oldo', definition: 'Aunque' },
     { word: 'Always', pronunciation: 'olwis', definition: 'Siempre' },
@@ -53,12 +52,13 @@ const words = [
     { word: 'As', pronunciation: 'as', definition: 'Como' },
     { word: 'Abide', pronunciation: 'abaid', definition: 'cumplir' },
     { word: 'Aspect', pronunciation: 'aspect', definition: 'Aspecto' },
-    { word: 'At', pronunciation: 'at', definition: 'Aspecto' },
+    { word: 'At', pronunciation: 'at', definition: 'En' },
     { word: 'Automation', pronunciation: 'oro-meichen', definition: 'Automatización' },
     { word: 'Avalanche', pronunciation: 'ava-lantsh', definition: 'Avalancha' },
     { word: 'Away', pronunciation: 'e-uey', definition: 'Lejos' },
     { word: 'Axe', pronunciation: 'aks', definition: 'Hacha' },
     { word: 'Backpack', pronunciation: 'bak-pak', definition: 'Mochila' },
+    { word: 'Breakfast', pronunciation: '', definition: 'Desayuno' },
     { word: 'Backup', pronunciation: 'bak-up', definition: 'Respaldo' },
     { word: 'Bandage', pronunciation: 'bendich', definition: 'Vendaje' },
     { word: 'Bread', pronunciation: 'bred', definition: 'Pan' },
@@ -106,47 +106,84 @@ const words = [
     { word: 'Coordinates', pronunciation: 'coordenets', definition: 'Coordenadas' },
     { word: 'Cost', pronunciation: 'cost', definition: 'Costo' },
     { word: 'Course', pronunciation: 'kors', definition: 'Curso' },
+    { word: 'Dinner', pronunciation: 'diner', definition: 'Cena' },
     { word: 'Data', pronunciation: 'deira', definition: 'Datos' },
     { word: 'Database', pronunciation: 'dara-beis', definition: 'Base de datos' },
     { word: 'Datum', pronunciation: 'dadem', definition: 'Dato' },
     { word: 'Day', pronunciation: 'dey', definition: 'Día' },
 
-
-    { word: 'Reach', pronunciation: 'ruich', definition: 'Alcanzar' },
+    { word: 'Deal', pronunciation: 'dill', definition: 'Trato' },
+    { word: 'Dehydration', pronunciation: 'dijai-dreichen', definition: 'Deshidratación' },
+    { word: 'deployment', pronunciation: 'deploiment', definition: 'Despliegue' },
+    { word: 'Desert', pronunciation: 'desert', definition: 'Desierto' },
+    { word: 'Desk', pronunciation: 'desk', definition: 'Escritorio' },
+    { word: 'Device', pronunciation: 'devais', definition: 'Dispositivo' },
+    { word: 'Different', pronunciation: 'di-frent', definition: 'Diferente' },
+    { word: 'Direction', pronunciation: '', definition: 'Dirección' },
+    { word: 'Disaster', pronunciation: 'desaster', definition: 'Desastre' },
+    { word: 'Down', pronunciation: 'daun', definition: 'Abajo' },
+    { word: 'Earthquake', pronunciation: 'erz-cueic', definition: 'Terremoto' },
+    { word: 'East', pronunciation: 'ist', definition: 'Este' },
+    { word: 'Electronic', pronunciation: 'elek-tranik', definition: 'Electrónica' },
+    { word: 'Elevation', pronunciation: 'eleveichen', definition: 'Elevación' },
+    { word: 'Earth', pronunciation: 'Erz', definition: 'Arena' },
+    { word: 'Email', pronunciation: 'imel', definition: 'Correo' },
+    { word: 'Emergency', pronunciation: 'emerjensi', definition: 'Emergencia' },
+    { word: 'Egg', pronunciation: 'eg', definition: 'Huevo' },
+    { word: 'Response', pronunciation: 'ris-pans', definition: 'Respuesta' },
+    { word: 'End', pronunciation: 'end', definition: 'Fin' },
+    { word: 'Engine', pronunciation: 'enjen', definition: 'Motor' },
     { word: 'Early', pronunciation: 'erly', definition: 'Temprano' },
     { word: 'Every', pronunciation: 'ebri', definition: 'Cada' },
-    { word: 'Late', pronunciation: 'leit', definition: 'Tarde' },
-    { word: 'Shower', pronunciation: 'shouer', definition: 'Ducha' },
-    { word: 'My', pronunciation: 'may', definition: 'Mi' },
-    { word: 'Breakfast', pronunciation: '', definition: 'Desayuno' },
-    { word: 'Egg', pronunciation: 'eg', definition: 'Huevo' },
-    { word: 'Orange', pronunciation: 'oranch', definition: 'Naranja' },
-    { word: 'Juice', pronunciation: '', definition: 'Jugo' },
-    { word: 'Kookie', pronunciation: 'kuki', definition: 'Galleta' },
-    { word: 'Study', pronunciation: '', definition: 'Estudiar' },
+
+
+    { word: 'Friend', pronunciation: 'fren', definition: 'Amigo' },
     { word: 'From', pronunciation: 'from', definition: 'De - Desde' },
-    { word: 'To', pronunciation: 'tu', definition: '' },
-    { word: 'Lunch', pronunciation: 'lanch', definition: 'Almuerzo' },
     { word: 'Food', pronunciation: 'Fud', definition: 'Comida' },
-    { word: 'Meat', pronunciation: 'mit', definition: 'Carne' },
+    { word: 'Family', pronunciation: 'femly', definition: 'Familia' },
     { word: 'Fish', pronunciation: 'fish', definition: 'Pez' },
-    { word: 'Soda', pronunciation: 'soda', definition: 'Gaseosa' },
-    { word: 'of', pronunciation: 'of', definition: 'De' },
-    { word: 'Rice', pronunciation: 'raiz', definition: 'Arroz' },
-    { word: 'Until', pronunciation: 'antil', definition: 'Hasta' },
-    { word: 'Train', pronunciation: 'trein', definition: 'Entrenar - Tren' },
-    { word: 'Dinner', pronunciation: 'diner', definition: 'Cena' },
-    { word: 'Video', pronunciation: 'vidio', definition: 'Video' },
+
     { word: 'Game', pronunciation: 'gueim', definition: 'Juego' },
+
+    { word: 'height', pronunciation: 'jait', definition: 'Altura' },
+
+    { word: 'In', pronunciation: 'in', definition: 'En' },
+
+    { word: 'Juice', pronunciation: '', definition: 'Jugo' },
+
+    { word: 'Kookie', pronunciation: 'kuki', definition: 'Galleta' },
+
+    { word: 'Late', pronunciation: 'leit', definition: 'Tarde' },
+    { word: 'Lunch', pronunciation: 'lanch', definition: 'Almuerzo' },
+
+    { word: 'My', pronunciation: 'may', definition: 'Mi' },
+    { word: 'Mistake', pronunciation: 'mesteik', definition: 'Error' },
+    { word: 'Meat', pronunciation: 'mit', definition: 'Carne' },
+
+    { word: 'Night', pronunciation: 'nait', definition: 'Noche' },
+
+    { word: 'Orange', pronunciation: 'oranch', definition: 'Naranja' },
+    { word: 'of', pronunciation: 'of', definition: 'De' },
+    { word: 'On', pronunciation: 'an', definition: 'En' },
+
+    { word: 'Reach', pronunciation: 'ruich', definition: 'Alcanzar' },
+    { word: 'Rice', pronunciation: 'raiz', definition: 'Arroz' },
+
+    { word: 'Sometimes', pronunciation: 'somtaims', definition: 'A veces' },
+    { word: 'Shower', pronunciation: 'shouer', definition: 'Ducha' },
+    { word: 'Study', pronunciation: '', definition: 'Estudiar' },
+    { word: 'Soda', pronunciation: 'soda', definition: 'Gaseosa' },
+
+    { word: 'To', pronunciation: 'tu', definition: '' },
+    { word: 'Train', pronunciation: 'trein', definition: 'Entrenar - Tren' },
     { word: 'Time', pronunciation: 'Taim', definition: 'Tiempo' },
+
+    { word: 'Until', pronunciation: 'antil', definition: 'Hasta' },
+
+    { word: 'Video', pronunciation: 'vidio', definition: 'Video' },
+
     { word: 'With', pronunciation: 'uit', definition: 'Con' },
     { word: 'Without', pronunciation: 'uit-out', definition: 'Sin' },
-    { word: 'Family', pronunciation: 'femly', definition: 'Familia' },
-    { word: 'Friend', pronunciation: 'fren', definition: 'Amigo' },
-    { word: 'Sometimes', pronunciation: 'somtaims', definition: 'A veces' },
-    { word: 'On', pronunciation: 'an', definition: 'En' },
-    { word: 'In', pronunciation: 'in', definition: 'En' },
-    { word: 'Night', pronunciation: 'nait', definition: 'Noche' },
 
 
 ];
@@ -162,7 +199,7 @@ const findWord = words.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'day';
+    var word = 'breakfast';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {

@@ -895,12 +895,16 @@ shave
 learn
 lean
 dream
+dehydrate
 increase
 spill
+deploy
 burn
+handle
 spell
 spend
 back
+whistle
 organize
 conserve
 broadcast
@@ -1520,15 +1524,15 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 /*--- LOOKING FOR WORDS ---*/
-const findWord = allWordsAndVerbs.includes(`conserve`);
+const findWord = allWordsAndVerbs.includes(`mistake`);
 // alert(`¿Does the word exist in the dictionary? [${findWord}]`);
 
-const findRV = convertReVerbs.includes(`cross`);
-const findIndexRV = convertReVerbs.indexOf('cross');
+const findRV = convertReVerbs.includes(`handle`);
+const findIndexRV = convertReVerbs.indexOf('handle');
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
-const findIV = convertIrreVerbs.includes(`conserve`);
-const findIndexIV = convertIrreVerbs.indexOf(`conserve`);
+const findIV = convertIrreVerbs.includes(`draw`);
+const findIndexIV = convertIrreVerbs.indexOf(`draw`);
 // alert(`Iregular verbs [${findIV}] index: ${findIndexIV}`);
 
 const findIn = convertCartography.includes('conserve');
@@ -1649,6 +1653,30 @@ const DeleteWords = () => {
     allWords.splice(0, 1);
     allWords.splice(0, 1);
     allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
+    allWords.splice(0, 1);
 
 
 
@@ -1657,7 +1685,7 @@ const DeleteWords = () => {
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }
-// DeleteWords();
+DeleteWords();
 
 const find = allWords.includes(``);
 // console.log(`Word [${find}]`);
