@@ -13,6 +13,7 @@ const words = [
     { word: 'Him', pronunciation: 'him', definition: 'Él' },
     { word: 'Her', pronunciation: 'ger', definition: 'Ella' },
     { word: 'Then', pronunciation: 'den', definition: 'Entonces' },
+
     { word: 'About', pronunciation: 'abaut', definition: 'Acerca de' },
     { word: 'Advertisement', pronunciation: 'advertuaisment', definition: 'anuncio' },
     { word: 'Aerial', pronunciation: 'er-ial', definition: 'Aéreo' },
@@ -57,6 +58,7 @@ const words = [
     { word: 'Avalanche', pronunciation: 'ava-lantsh', definition: 'Avalancha' },
     { word: 'Away', pronunciation: 'e-uey', definition: 'Lejos' },
     { word: 'Axe', pronunciation: 'aks', definition: 'Hacha' },
+
     { word: 'Backpack', pronunciation: 'bak-pak', definition: 'Mochila' },
     { word: 'Breakfast', pronunciation: '', definition: 'Desayuno' },
     { word: 'Backup', pronunciation: 'bak-up', definition: 'Respaldo' },
@@ -75,6 +77,7 @@ const words = [
     { word: 'Bug net', pronunciation: 'bag-net', definition: 'Toldillo' },
     { word: 'But', pronunciation: 'bat', definition: 'Pero' },
     { word: 'By', pronunciation: 'bay', definition: 'Por - Mediante - Según - Junto a' },
+
     { word: 'Camera', pronunciation: '', definition: 'Cámara' },
     { word: 'Campfire', pronunciation: 'camp-faier', definition: 'Hoguera - Fogata' },
     { word: 'Coffee', pronunciation: 'cofi', definition: 'Café' },
@@ -89,9 +92,6 @@ const words = [
     { word: 'Charger', pronunciation: 'charyer', definition: 'Cargador' },
     { word: 'City', pronunciation: 'siti', definition: 'Ciudad' },
     { word: 'Cliff', pronunciation: 'klif', definition: 'Acantilado' },
-    { word: 'Harness', pronunciation: 'arnes', definition: 'Arnés' },
-    { word: 'Helmet', pronunciation: 'elmet', definition: 'Casco' },
-    { word: 'Rope', pronunciation: 'rop', definition: 'Soga' },
     { word: 'Clothes', pronunciation: 'klotz', definition: 'Ropa' },
     { word: 'Cloud', pronunciation: 'kloud', definition: 'Nube' },
     { word: 'Code', pronunciation: 'koud', definition: 'Código' },
@@ -106,12 +106,12 @@ const words = [
     { word: 'Coordinates', pronunciation: 'coordenets', definition: 'Coordenadas' },
     { word: 'Cost', pronunciation: 'cost', definition: 'Costo' },
     { word: 'Course', pronunciation: 'kors', definition: 'Curso' },
+
     { word: 'Dinner', pronunciation: 'diner', definition: 'Cena' },
     { word: 'Data', pronunciation: 'deira', definition: 'Datos' },
     { word: 'Database', pronunciation: 'dara-beis', definition: 'Base de datos' },
     { word: 'Datum', pronunciation: 'dadem', definition: 'Dato' },
     { word: 'Day', pronunciation: 'dey', definition: 'Día' },
-
     { word: 'Deal', pronunciation: 'dill', definition: 'Trato' },
     { word: 'Dehydration', pronunciation: 'dijai-dreichen', definition: 'Deshidratación' },
     { word: 'deployment', pronunciation: 'deploiment', definition: 'Despliegue' },
@@ -122,6 +122,7 @@ const words = [
     { word: 'Direction', pronunciation: '', definition: 'Dirección' },
     { word: 'Disaster', pronunciation: 'desaster', definition: 'Desastre' },
     { word: 'Down', pronunciation: 'daun', definition: 'Abajo' },
+
     { word: 'Earthquake', pronunciation: 'erz-cueic', definition: 'Terremoto' },
     { word: 'East', pronunciation: 'ist', definition: 'Este' },
     { word: 'Electronic', pronunciation: 'elek-tranik', definition: 'Electrónica' },
@@ -136,16 +137,39 @@ const words = [
     { word: 'Early', pronunciation: 'erly', definition: 'Temprano' },
     { word: 'Every', pronunciation: 'ebri', definition: 'Cada' },
 
-
+    { word: 'Even', pronunciation: 'iven', definition: 'Incluso' },
+    { word: 'Eyes', pronunciation: 'ai', definition: 'Ojo' },
+    { word: 'Fact', pronunciation: 'fakt', definition: 'Hecho' },
+    { word: 'Far', pronunciation: 'far', definition: 'Lejos' },
+    { word: 'Farm', pronunciation: 'farm', definition: 'Granja' },
+    { word: 'Few', pronunciation: 'fiu', definition: 'Pocos' },
+    { word: 'Fire', pronunciation: 'faier', definition: 'Fuego' },
+    { word: 'Firewall', pronunciation: 'faier-wol', definition: 'Cortafuegos' },
+    { word: 'First', pronunciation: 'ferst', definition: 'Primero' },
+    { word: 'First aid', pronunciation: 'ferst-eid', definition: 'Primeros auxilios' },
+    { word: 'First-aid kit', pronunciation: 'ferst-eid kit', definition: 'Kit de primeros auxilios' },
+    { word: 'Fish', pronunciation: 'fich', definition: 'Pez' },
+    { word: 'Fishing bait', pronunciation: 'fiching beit', definition: 'Cebo de pesca' },
+    { word: 'Flares', pronunciation: 'flers', definition: 'Bengalas' },
+    { word: 'Flashlight', pronunciation: 'flach-lait', definition: 'Linterna' },
+    { word: 'Flood', pronunciation: 'flod', definition: 'Inundación' },
+    { word: 'Food', pronunciation: 'fud', definition: 'Comida' },
+    { word: 'For', pronunciation: 'for', definition: 'Por' },
+    { word: 'Forage', pronunciation: 'for-ech', definition: 'Forraje' },
+    { word: 'Forecast', pronunciation: 'for-kast', definition: 'Pronóstico' },
+    { word: 'Four', pronunciation: 'for', definition: 'Cuatro' },
     { word: 'Friend', pronunciation: 'fren', definition: 'Amigo' },
     { word: 'From', pronunciation: 'from', definition: 'De - Desde' },
     { word: 'Food', pronunciation: 'Fud', definition: 'Comida' },
     { word: 'Family', pronunciation: 'femly', definition: 'Familia' },
-    { word: 'Fish', pronunciation: 'fish', definition: 'Pez' },
 
     { word: 'Game', pronunciation: 'gueim', definition: 'Juego' },
+    { word: 'Gear', pronunciation: 'guir', definition: 'Engranaje' },
 
-    { word: 'height', pronunciation: 'jait', definition: 'Altura' },
+    { word: 'Height', pronunciation: 'jait', definition: 'Altura' },
+    { word: 'Harness', pronunciation: 'arnes', definition: 'Arnés' },
+    { word: 'Hook', pronunciation: 'jok', definition: 'Gancho' },
+    { word: 'Helmet', pronunciation: 'elmet', definition: 'Casco' },
 
     { word: 'In', pronunciation: 'in', definition: 'En' },
 
@@ -154,11 +178,14 @@ const words = [
     { word: 'Kookie', pronunciation: 'kuki', definition: 'Galleta' },
 
     { word: 'Late', pronunciation: 'leit', definition: 'Tarde' },
+    { word: 'Lighter', pronunciation: 'lairer', definition: 'Encendedor' },
+    { word: 'Line', pronunciation: 'lain', definition: 'Línea' },
     { word: 'Lunch', pronunciation: 'lanch', definition: 'Almuerzo' },
 
     { word: 'My', pronunciation: 'may', definition: 'Mi' },
     { word: 'Mistake', pronunciation: 'mesteik', definition: 'Error' },
     { word: 'Meat', pronunciation: 'mit', definition: 'Carne' },
+    { word: 'Meeting', pronunciation: 'mit', definition: 'Carne' },
 
     { word: 'Night', pronunciation: 'nait', definition: 'Noche' },
 
@@ -168,6 +195,7 @@ const words = [
 
     { word: 'Reach', pronunciation: 'ruich', definition: 'Alcanzar' },
     { word: 'Rice', pronunciation: 'raiz', definition: 'Arroz' },
+    { word: 'Rope', pronunciation: 'rop', definition: 'Soga' },
 
     { word: 'Sometimes', pronunciation: 'somtaims', definition: 'A veces' },
     { word: 'Shower', pronunciation: 'shouer', definition: 'Ducha' },
@@ -199,7 +227,7 @@ const findWord = words.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'breakfast';
+    var word = 'meet';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {

@@ -896,6 +896,7 @@ learn
 lean
 dream
 dehydrate
+filter
 increase
 spill
 deploy
@@ -944,7 +945,6 @@ attend
 attract
 avoid
 base
-bear
 beat
 become
 believe
@@ -1524,168 +1524,36 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 /*--- LOOKING FOR WORDS ---*/
-const findWord = allWordsAndVerbs.includes(`mistake`);
-// alert(`¿Does the word exist in the dictionary? [${findWord}]`);
+const findWord = allWordsAndVerbs.find(item => item === 'meet');
+const finIndex = allWordsAndVerbs.indexOf(findWord);
+// alert(`¿Does the word exist in the dictionary? [${findWord}] [${finIndex}]`);
 
-const findRV = convertReVerbs.includes(`handle`);
-const findIndexRV = convertReVerbs.indexOf('handle');
+const findRV = convertReVerbs.find(item => item === 'learn');
+const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
-const findIV = convertIrreVerbs.includes(`draw`);
-const findIndexIV = convertIrreVerbs.indexOf(`draw`);
-// alert(`Iregular verbs [${findIV}] index: ${findIndexIV}`);
+const findIV = convertIrreVerbs.find(item => item === ``);
+const findIndexIV = convertIrreVerbs.indexOf(findIV);
+// alert(`Iregular verbs [${findIV}]: ${findIndexIV}`);
 
-const findIn = convertCartography.includes('conserve');
-const findIndexIn = convertCartography.indexOf(`conserve`);
+const findIn = convertCartography.find(item => item === '');
+const findIndexIn = convertCartography.indexOf(findIn);
 // alert(`Word: ${findIn}, Index: ${findIndexIn}`);
 
 // console.log(`List of verbs: ${listOfdVerbs.length}`);
-// alert(`List of cartography: ${convertCartography.length}`);
 
 
 /*--- DELETE WORDS ---*/
 const DeleteWords = () => {
 
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-    allWords.splice(0, 1);
-
-
+    allWords.splice(0, 170);
 
     console.log(allWords.length);
     console.log(allWords);
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }
-DeleteWords();
+// DeleteWords();
 
 const find = allWords.includes(``);
 // console.log(`Word [${find}]`);
