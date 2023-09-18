@@ -42,7 +42,7 @@
 .talk_container {
     display: flex;
     justify-content: space-between;
-    width: 95%;
+    width: 50%;
     height: 25px;
     /* background-color: darkgoldenrod; */
 }
@@ -85,7 +85,6 @@
     width: 40px;
     height: 20px;
     margin: 0 4px;
-    /* background-color: chartreuse; */
 }
 
 .meaning_word {
@@ -101,13 +100,10 @@
     background-color: #60d4ea;
 }
 
-
-
-
 .defi {
     display: flex;
     align-items: center;
-    width: 60%;
+    width: 50%;
     margin: 0 4px;
     height: 100%;
     font-weight: bold;
@@ -180,13 +176,16 @@
         width: 97%;
         margin: 2px;
         height: 30px;
-        /* background-color: brown; */
     }
 
     .talk {
         width: 38px;
         height: 20px;
         margin: 2px;
+    }
+    .talk_container {
+        width: 60%;
+        /* background-color: cadetblue; */
     }
 
     .pronunciation_container {
