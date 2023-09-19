@@ -1,8 +1,26 @@
+import { NavLink } from "react-router-dom";
+
+import "./Header.css";
+
 const Header = () => {
   return (
-    <div>
-      <div className="nav_left">left</div>
-      <div className="nav_right">right</div>
+    <div className="header">
+      <nav className="nav">
+        <div className="nav_left">
+          <div className="mobile_menu">
+            <div></div>
+            <div></div>
+            <div></div>
+          </div>
+
+          <ul>
+            <li>
+              <NavLink to="/li/reglas/">Reglas</NavLink>
+            </li>
+          </ul>
+        </div>
+        <div className="nav_right"></div>
+      </nav>
     </div>
   );
 };

@@ -1,17 +1,12 @@
-
-
-
 import Words from "../../Components/Words";
 
 import { words } from "../../mg/english";
 
-import './Home.css';
-
+import "./Home.css";
 
 const Home = () => {
-
   return (
-    <div>
+    <div className="home">
       <div className="words_container">
         <div className="titles">
           <span>Palabra</span>
