@@ -29,6 +29,7 @@
 }
 
 .rules p {
+    color: black;
     margin: 6px;
     letter-spacing: 0.06em;
 }
@@ -37,6 +38,7 @@
     margin: 0 8px;
     list-style: none;
     letter-spacing: 0.06em;
+    color: black;
     /* background-color: chartreuse; */
 }
 .rules ul li{
