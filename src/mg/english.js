@@ -86,6 +86,7 @@ const words = [
     { word: 'Canyon', pronunciation: 'kanien', definition: 'Cañón' },
     { word: 'Car', pronunciation: 'car', definition: 'Carro' },
     { word: 'Carabiner', pronunciation: 'karabiner', definition: 'Mosquetón' },
+    { word: 'characteristic', pronunciation: '', definition: 'Caracterìstica' },
     { word: 'Cartographer', pronunciation: 'kartagrefer', definition: 'Cartógrafo' },
     { word: 'Cartography', pronunciation: 'kartagrefi', definition: 'Cartografía' },
     { word: 'Case', pronunciation: 'kes', definition: 'Caso' },
@@ -131,18 +132,18 @@ const words = [
     { word: 'Email', pronunciation: 'imel', definition: 'Correo' },
     { word: 'Emergency', pronunciation: 'emerjensi', definition: 'Emergencia' },
     { word: 'Egg', pronunciation: 'eg', definition: 'Huevo' },
-    { word: 'Response', pronunciation: 'ris-pans', definition: 'Respuesta' },
     { word: 'End', pronunciation: 'end', definition: 'Fin' },
     { word: 'Engine', pronunciation: 'enjen', definition: 'Motor' },
     { word: 'Early', pronunciation: 'erly', definition: 'Temprano' },
     { word: 'Every', pronunciation: 'ebri', definition: 'Cada' },
-
     { word: 'Even', pronunciation: 'iven', definition: 'Incluso' },
     { word: 'Eyes', pronunciation: 'ai', definition: 'Ojo' },
+
     { word: 'Fact', pronunciation: 'fakt', definition: 'Hecho' },
     { word: 'Far', pronunciation: 'far', definition: 'Lejos' },
     { word: 'Farm', pronunciation: 'farm', definition: 'Granja' },
     { word: 'Few', pronunciation: 'fiu', definition: 'Pocos' },
+    { word: 'feature', pronunciation: 'ficher', definition: 'caracterìstica' },
     { word: 'Fire', pronunciation: 'faier', definition: 'Fuego' },
     { word: 'Firewall', pronunciation: 'faier-wol', definition: 'Cortafuegos' },
     { word: 'First', pronunciation: 'ferst', definition: 'Primero' },
@@ -163,8 +164,18 @@ const words = [
     { word: 'Food', pronunciation: 'Fud', definition: 'Comida' },
     { word: 'Family', pronunciation: 'femly', definition: 'Familia' },
 
+
+
     { word: 'Game', pronunciation: 'gueim', definition: 'Juego' },
     { word: 'Gear', pronunciation: 'guir', definition: 'Engranaje' },
+    { word: 'geographer', pronunciation: 'yia-grefer', definition: 'Geógrafo' },
+    { word: 'geographic', pronunciation: 'yio-grafic', definition: 'Gegráfico' },
+    { word: 'geography', pronunciation: 'yia-grefi', definition: 'Geografía' },
+    { word: 'geologic', pronunciation: 'yio-loyic', definition: 'Geológico' },
+    { word: 'geology', pronunciation: 'yia-leyi', definition: '' },
+
+
+
 
     { word: 'Height', pronunciation: 'jait', definition: 'Altura' },
     { word: 'Harness', pronunciation: 'arnes', definition: 'Arnés' },
@@ -194,6 +205,7 @@ const words = [
     { word: 'On', pronunciation: 'an', definition: 'En' },
 
     { word: 'Reach', pronunciation: 'ruich', definition: 'Alcanzar' },
+    { word: 'Response', pronunciation: 'ris-pans', definition: 'Respuesta' },
     { word: 'Rice', pronunciation: 'raiz', definition: 'Arroz' },
     { word: 'Rope', pronunciation: 'rop', definition: 'Soga' },
 
@@ -227,7 +239,7 @@ const findWord = words.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'meet';
+    var word = 'characteristic';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {
@@ -246,7 +258,7 @@ const FindRepeatedWords = () => {
     console.log(`Repeated position: ${repeatedPosition}`);
 }
 
-// FindRepeatedWords();
+FindRepeatedWords();
 
 // console.log(`Number of words: ${findWord.length}`);
 

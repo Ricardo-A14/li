@@ -1532,9 +1532,9 @@ const findRV = convertReVerbs.find(item => item === 'learn');
 const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
-const findIV = convertIrreVerbs.find(item => item === ``);
+const findIV = convertIrreVerbs.find(item => item === `get`);
 const findIndexIV = convertIrreVerbs.indexOf(findIV);
-// alert(`Iregular verbs [${findIV}]: ${findIndexIV}`);
+alert(`Iregular verbs [${findIV}]: ${findIndexIV}`);
 
 const findIn = convertCartography.find(item => item === '');
 const findIndexIn = convertCartography.indexOf(findIn);
@@ -1553,10 +1553,10 @@ const DeleteWords = () => {
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }
-// DeleteWords();
+DeleteWords();
 
-const find = allWords.includes(``);
-// console.log(`Word [${find}]`);
+const find = allWords.includes(`Gear`);
+console.log(`Word [${find}]`);
 
 
 export { allWords };
