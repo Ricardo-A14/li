@@ -3,6 +3,7 @@
 .rules {
     margin: 0;
     padding-top: 60px;
+    padding-bottom: 2px;
     width: 100%;
     min-height: 100vh;
     background-color: whitesmoke;

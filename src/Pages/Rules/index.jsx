@@ -104,6 +104,124 @@ const Rules = () => {
           </li>
         </ul>
       </div>
+
+      <div className="rule_container adverb">
+        <h1>Adverbios</h1>
+        <p>
+          Son palabras que no varían en género y número, son invariables y
+          complementan el significado de otras palabras, ejemplo:
+        </p>
+
+        <ul>
+          <li>
+            <span>-</span> Voy mañana, donde <span>mañana</span> no varía en
+            género (mañano) ni en número (mañanas).
+          </li>
+          <li>
+            <span>-</span> Muy bien, donde <span>muy</span> no varía en genero
+            (muya) ni en número (muys).
+          </li>
+        </ul>
+
+        <h2>Adverbios de lugar</h2>
+
+        <ul>
+          <li>
+            <span>-</span> Aquí, allí, ahí, allá, arriba, abajo, cerca, lejos,
+            dentro, fuera, delante, alrededor.
+          </li>
+        </ul>
+
+        <h2>Adverbios de tiempo</h2>
+
+        <ul>
+          <li>
+            <span>-</span> Hoy, luego, ahora, despues, ayer, mañana, entonces,
+            ahora, antes, tarde, pronto.
+          </li>
+        </ul>
+
+        <h2>Adverbios de modo</h2>
+
+        <ul>
+          <li>
+            <span>-</span> Bien, mal, así, despacio, deprisa, gratis.
+          </li>
+        </ul>
+
+        <h2>Adverbios de cantidad</h2>
+
+        <ul>
+          <li>
+            <span>-</span> Mucho, poco, bastante, más, menos, muy, demasiado,
+            casi, medio, nada, algo.
+          </li>
+        </ul>
+
+        <h2>Adverbios de afirmación</h2>
+
+        <ul>
+          <li>
+            <span>-</span> Sí, claro, ciertamente, también, cierto,
+            efectivamente.
+          </li>
+        </ul>
+
+        <h2>Adverbios de negación</h2>
+
+        <ul>
+          <li>
+            <span>-</span> No, tampoco, nunca, jamas.
+          </li>
+        </ul>
+
+        <h2>Adverbios de duda</h2>
+
+        <ul>
+          <li>
+            <span>-</span> Quizás, tal vez, acaso, probablemente.
+          </li>
+        </ul>
+      </div>
+
+      <div className="rule_container conjunction">
+        <h1>Conjunciones</h1>
+        <p>
+          Son palabras que unen palabras o grupos de palabras que expresan ideas
+          semejantes, ejemplo:
+        </p>
+        <ul>
+          <li>
+            <span>-</span> Rey y reina, donde <span>y</span> es la conjunción.
+          </li>
+          <li>
+            Rey = sustantivo <br />
+            y = CONJUNCIÓN <br />
+            reina = sustantivo
+          </li>
+        </ul>
+
+        <h2>Copulativas</h2>
+        <ul>
+          <li>
+            <span>-</span> y, e, ni.
+          </li>
+        </ul>
+
+        <h2>Disyuntivas</h2>
+        <ul>
+          <li>
+            <span>-</span> o, u.
+          </li>
+        </ul>
+
+        <h2>Adversativas</h2>
+        <ul>
+          <li>
+            <span>-</span> pero, sino.
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
