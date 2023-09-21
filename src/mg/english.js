@@ -173,6 +173,12 @@ const words = [
     { word: 'geography', pronunciation: 'yia-grefi', definition: 'Geografía' },
     { word: 'geologic', pronunciation: 'yio-loyic', definition: 'Geológico' },
     { word: 'geology', pronunciation: 'yia-leyi', definition: '' },
+    { word: 'Glacier', pronunciation: 'glei-cher', definition: 'Glaciar' },
+    { word: 'Gloves', pronunciation: 'globs', definition: 'Guantes' },
+    { word: 'Good', pronunciation: 'gud', definition: 'Bien - Bueno' },
+    { word: 'government', pronunciation: 'gaverment', definition: 'Gobierno' },
+    { word: 'Great', pronunciation: 'greit', definition: 'Excelente' },
+    { word: 'Grid', pronunciation: 'gred', definition: 'Red - Cuadrícula' },
 
 
 
