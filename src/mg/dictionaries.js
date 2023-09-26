@@ -894,10 +894,15 @@ const regularVerbs = `smell
 shave
 learn
 lean
+improve
 dream
 dehydrate
 filter
+hunt
+keep
+like
 increase
+hydrate
 spill
 deploy
 burn
@@ -1524,15 +1529,15 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 /*--- LOOKING FOR WORDS ---*/
-const findWord = allWordsAndVerbs.find(item => item === 'meet');
+const findWord = allWordsAndVerbs.find(item => item === 'card');
 const finIndex = allWordsAndVerbs.indexOf(findWord);
 // alert(`¿Does the word exist in the dictionary? [${findWord}] [${finIndex}]`);
 
-const findRV = convertReVerbs.find(item => item === 'handle');
+const findRV = convertReVerbs.find(item => item === 'like');
 const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
-const findIV = convertIrreVerbs.find(item => item === `have`);
+const findIV = convertIrreVerbs.find(item => item === `like`);
 const findIndexIV = convertIrreVerbs.indexOf(findIV);
 // alert(`Iregular verbs [${findIV}]: ${findIndexIV}`);
 
@@ -1546,17 +1551,17 @@ const findIndexIn = convertCartography.indexOf(findIn);
 /*--- DELETE WORDS ---*/
 const DeleteWords = () => {
 
-    allWords.splice(0, 200);
+    allWords.splice(0, 265);
 
     console.log(allWords.length);
     console.log(allWords);
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }
-DeleteWords();
+// DeleteWords();
 
 const find = allWords.includes(`lamp`);
-console.log(`Word [${find}]`);
+// console.log(`Word [${find}]`);
 
 
 export { allWords };

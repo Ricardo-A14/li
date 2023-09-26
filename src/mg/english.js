@@ -58,6 +58,10 @@ const words = [
     { word: 'Avalanche', pronunciation: 'ava-lantsh', definition: 'Avalancha' },
     { word: 'Away', pronunciation: 'e-uey', definition: 'Lejos' },
     { word: 'Axe', pronunciation: 'aks', definition: 'Hacha' },
+    { word: 'Among', pronunciation: 'amang', definition: 'Entre' },
+    { word: 'Above', pronunciation: 'abov', definition: 'Arriba de' },
+    { word: 'Address', pronunciation: 'adres', definition: 'Dirección' },
+
 
     { word: 'Backpack', pronunciation: 'bak-pak', definition: 'Mochila' },
     { word: 'Breakfast', pronunciation: '', definition: 'Desayuno' },
@@ -77,9 +81,11 @@ const words = [
     { word: 'Bug net', pronunciation: 'bag-net', definition: 'Toldillo' },
     { word: 'But', pronunciation: 'bat', definition: 'Pero' },
     { word: 'By', pronunciation: 'bay', definition: 'Por - Mediante - Según - Junto a' },
+    { word: 'Below', pronunciation: 'below', definition: 'Abajo' },
 
     { word: 'Camera', pronunciation: '', definition: 'Cámara' },
     { word: 'Campfire', pronunciation: 'camp-faier', definition: 'Hoguera - Fogata' },
+    { word: 'Card', pronunciation: 'card', definition: 'Tarjeta' },
     { word: 'Coffee', pronunciation: 'cofi', definition: 'Café' },
     { word: 'Chocolate', pronunciation: '', definition: 'Chocolate' },
     { word: 'Chicken', pronunciation: 'chiken', definition: 'Pollo' },
@@ -164,6 +170,7 @@ const words = [
     { word: 'From', pronunciation: 'from', definition: 'De - Desde' },
     { word: 'Food', pronunciation: 'Fud', definition: 'Comida' },
     { word: 'Family', pronunciation: 'femly', definition: 'Familia' },
+    { word: 'Front', pronunciation: 'front', definition: 'Frente' },
 
 
 
@@ -190,19 +197,67 @@ const words = [
     { word: 'Harness', pronunciation: 'arnes', definition: 'Arnés' },
     { word: 'Hook', pronunciation: 'jok', definition: 'Gancho' },
     { word: 'Helmet', pronunciation: 'elmet', definition: 'Casco' },
+    { word: 'Hill', pronunciation: 'jil', definition: 'Colina' },
+    { word: 'Home', pronunciation: 'jom', definition: 'Hogar' },
+    { word: 'House', pronunciation: 'jaus', definition: 'Casa' },
+    { word: 'Hurricane', pronunciation: '', definition: 'Huracán' },
+    { word: 'Hydration', pronunciation: 'jai-dreichen', definition: 'Hidratación' },
+    { word: 'Hypothermia', pronunciation: 'jaipotermia', definition: 'Hipotermia' },
 
+    { word: 'If', pronunciation: 'if', definition: 'si' },
+    { word: 'Image', pronunciation: 'imech', definition: 'Imagen' },
     { word: 'In', pronunciation: 'in', definition: 'En' },
+    { word: 'Incident', pronunciation: 'incident', definition: 'Incidente' },
+    { word: 'Index', pronunciation: 'index', definition: 'Ídice' },
+    { word: 'Information', pronunciation: 'infor-meichen', definition: 'Información' },
+    { word: 'Infrastructure', pronunciation: 'infras-trakcher', definition: 'Infraestructura' },
+    { word: 'Input', pronunciation: 'input', definition: 'Entrada - Aporte' },
+    { word: 'Insects', pronunciation: 'insekt', definition: 'Insecto' },
+    { word: 'Integration', pronunciation: 'inte-greichen', definition: 'Integración' },
+    { word: 'Intelligence', pronunciation: 'in-teliyens', definition: 'Inteligencia' },
+    { word: 'Interface', pronunciation: 'interfeis', definition: 'Interfaz' },
+    { word: 'Interval', pronunciation: 'interval', definition: 'Intervalo' },
+    { word: 'Into', pronunciation: 'intu', definition: 'En' },
+    { word: 'Investment', pronunciation: 'investment', definition: 'Inversión' },
+    { word: 'Is', pronunciation: 'is', definition: 'Es' },
+    { word: 'Island', pronunciation: 'ailand', definition: 'Isla' },
+    { word: 'It', pronunciation: 'it', definition: 'El' },
 
+    { word: 'Just', pronunciation: 'yost', definition: 'Solo - Justo' },
     { word: 'Juice', pronunciation: '', definition: 'Jugo' },
 
+    { word: 'Key', pronunciation: 'ki', definition: 'Llave' },
+    { word: 'Keyboard', pronunciation: 'ki-bord', definition: 'Teclado' },
+    { word: 'Kind', pronunciation: 'kaind', definition: 'Tipo - Amable' },
+    { word: 'Kit', pronunciation: 'kit', definition: 'Equipo' },
     { word: 'Kookie', pronunciation: 'kuki', definition: 'Galleta' },
+    { word: 'Knife', pronunciation: 'Naif', definition: 'Cuchillo' },
 
+    { word: 'Lake', pronunciation: 'leik', definition: 'Lago' },
+    { word: 'Land', pronunciation: 'land', definition: 'Tierra' },
+    { word: 'Landmark', pronunciation: 'land-mark', definition: 'Punto de referencia' },
+    { word: 'Lantern', pronunciation: 'lantern', definition: 'Linterna' },
+    { word: 'Last', pronunciation: 'last', definition: 'Último' },
+    { word: 'Latitude', pronunciation: 'latitud', definition: 'Latitud' },
+    { word: 'Left', pronunciation: 'left', definition: 'Izquierda' },
+    { word: 'Legend', pronunciation: 'leyend', definition: 'Leyenda' },
+    { word: 'Letter', pronunciation: 'leder', definition: 'Carta - Letra' },
+    { word: 'Level', pronunciation: 'level', definition: 'Nivel' },
+    { word: 'Library', pronunciation: 'laibrery', definition: 'Biblioteca' },
+    { word: 'Life', pronunciation: 'laif', definition: 'Vida' },
+    { word: 'Little', pronunciation: '', definition: 'Pequeño - Poco' },
+    { word: 'Load', pronunciation: 'loud', definition: 'Carga' },
+    { word: 'Long', pronunciation: 'long', definition: 'largo' },
+    { word: 'Longitude', pronunciation: 'lonyi-tud', definition: 'Longitud' },
+    { word: 'Lowercase', pronunciation: 'louer-keis', definition: 'Minúscula' },
     { word: 'Late', pronunciation: 'leit', definition: 'Tarde' },
     { word: 'Lighter', pronunciation: 'lairer', definition: 'Encendedor' },
     { word: 'Line', pronunciation: 'lain', definition: 'Línea' },
     { word: 'Lunch', pronunciation: 'lanch', definition: 'Almuerzo' },
     { word: 'Lamp', pronunciation: 'lamp', definition: 'Lámpara' },
 
+
+    { word: 'Machete', pronunciation: 'macheti', definition: 'Machete' },
     { word: 'My', pronunciation: 'may', definition: 'Mi' },
     { word: 'Mistake', pronunciation: 'mesteik', definition: 'Error' },
     { word: 'Meat', pronunciation: 'mit', definition: 'Carne' },
@@ -220,11 +275,13 @@ const words = [
     { word: 'Response', pronunciation: 'ris-pans', definition: 'Respuesta' },
     { word: 'Rice', pronunciation: 'raiz', definition: 'Arroz' },
     { word: 'Rope', pronunciation: 'rop', definition: 'Soga' },
+    { word: 'Repellent', pronunciation: 'ripelent', definition: 'Repelente' },
 
     { word: 'Sometimes', pronunciation: 'somtaims', definition: 'A veces' },
     { word: 'Shower', pronunciation: 'shouer', definition: 'Ducha' },
     { word: 'Study', pronunciation: '', definition: 'Estudiar' },
     { word: 'Soda', pronunciation: 'soda', definition: 'Gaseosa' },
+    { word: 'Since', pronunciation: 'sens', definition: 'Desde' },
 
     { word: 'To', pronunciation: 'tu', definition: '' },
     { word: 'Time', pronunciation: 'Taim', definition: 'Tiempo' },
@@ -232,11 +289,13 @@ const words = [
     { word: 'Train', pronunciation: 'trein', definition: 'Entrenar - Tren' },
 
     { word: 'Until', pronunciation: 'antil', definition: 'Hasta' },
+    { word: 'Unless', pronunciation: 'enles', definition: 'A menos que' },
 
     { word: 'Video', pronunciation: 'vidio', definition: 'Video' },
 
     { word: 'With', pronunciation: 'uit', definition: 'Con' },
     { word: 'Without', pronunciation: 'uit-out', definition: 'Sin' },
+    { word: 'Whether', pronunciation: 'ueder', definition: 'Si' },
 
 
 ];
@@ -252,7 +311,7 @@ const findWord = words.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'his';
+    var word = 'kit';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {
@@ -271,7 +330,7 @@ const FindRepeatedWords = () => {
     console.log(`Repeated position: ${repeatedPosition}`);
 }
 
-FindRepeatedWords();
+// FindRepeatedWords();
 
 // console.log(`Number of words: ${findWord.length}`);
 
