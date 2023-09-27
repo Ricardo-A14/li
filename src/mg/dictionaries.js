@@ -896,9 +896,12 @@ learn
 lean
 improve
 dream
+make
 dehydrate
+made
 filter
 hunt
+manage
 keep
 like
 increase
@@ -1111,6 +1114,7 @@ be
 bear
 become
 begin
+may
 bend
 bite
 bleed
@@ -1529,15 +1533,15 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 /*--- LOOKING FOR WORDS ---*/
-const findWord = allWordsAndVerbs.find(item => item === 'card');
+const findWord = allWordsAndVerbs.find(item => item === 'variation');
 const finIndex = allWordsAndVerbs.indexOf(findWord);
 // alert(`¿Does the word exist in the dictionary? [${findWord}] [${finIndex}]`);
 
-const findRV = convertReVerbs.find(item => item === 'like');
+const findRV = convertReVerbs.find(item => item === 'manage');
 const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
-const findIV = convertIrreVerbs.find(item => item === `like`);
+const findIV = convertIrreVerbs.find(item => item === `manage`);
 const findIndexIV = convertIrreVerbs.indexOf(findIV);
 // alert(`Iregular verbs [${findIV}]: ${findIndexIV}`);
 
@@ -1551,14 +1555,14 @@ const findIndexIn = convertCartography.indexOf(findIn);
 /*--- DELETE WORDS ---*/
 const DeleteWords = () => {
 
-    allWords.splice(0, 265);
+    allWords.splice(0, 279);
 
     console.log(allWords.length);
     console.log(allWords);
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }
-// DeleteWords();
+DeleteWords();
 
 const find = allWords.includes(`lamp`);
 // console.log(`Word [${find}]`);

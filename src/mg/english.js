@@ -130,6 +130,8 @@ const words = [
     { word: 'Direction', pronunciation: '', definition: 'Dirección' },
     { word: 'Disaster', pronunciation: 'desaster', definition: 'Desastre' },
     { word: 'Down', pronunciation: 'daun', definition: 'Abajo' },
+    { word: 'Declination', pronunciation: 'daclineichen', definition: 'Declinación' },
+
 
     { word: 'Earthquake', pronunciation: 'erz-cueic', definition: 'Terremoto' },
     { word: 'East', pronunciation: 'ist', definition: 'Este' },
@@ -261,7 +263,13 @@ const words = [
     { word: 'My', pronunciation: 'may', definition: 'Mi' },
     { word: 'Mistake', pronunciation: 'mesteik', definition: 'Error' },
     { word: 'Meat', pronunciation: 'mit', definition: 'Carne' },
-    { word: 'Meeting', pronunciation: 'mit', definition: 'Carne' },
+    { word: 'Many', pronunciation: 'meni', definition: 'Muchos' },
+    { word: 'Map', pronunciation: 'map', definition: 'Mapa' },
+    { word: 'Medicine', pronunciation: 'medisin', definition: 'Medicamento' },
+    { word: 'Meeting', pronunciation: 'miring', definition: 'Reunión' },
+    { word: 'Men', pronunciation: 'men', definition: 'Hombres' },
+    { word: 'Message', pronunciation: 'mesich', definition: 'Mensaje' },
+    { word: 'Metrics', pronunciation: 'metriks', definition: 'Métrica' },
 
     { word: 'Night', pronunciation: 'nait', definition: 'Noche' },
 
@@ -292,6 +300,7 @@ const words = [
     { word: 'Unless', pronunciation: 'enles', definition: 'A menos que' },
 
     { word: 'Video', pronunciation: 'vidio', definition: 'Video' },
+    { word: 'Variation', pronunciation: '', definition: 'Variación' },
 
     { word: 'With', pronunciation: 'uit', definition: 'Con' },
     { word: 'Without', pronunciation: 'uit-out', definition: 'Sin' },
