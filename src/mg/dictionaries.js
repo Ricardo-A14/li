@@ -899,6 +899,7 @@ dream
 make
 dehydrate
 made
+open
 filter
 hunt
 manage
@@ -1114,7 +1115,6 @@ be
 bear
 become
 begin
-may
 bend
 bite
 bleed
@@ -1125,7 +1125,6 @@ bring
 build
 burst
 buy
-can
 catch
 choose
 cling
@@ -1533,20 +1532,20 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 /*--- LOOKING FOR WORDS ---*/
-const findWord = allWordsAndVerbs.find(item => item === 'variation');
+const findWord = allWordsAndVerbs.find(item => item === 'system');
 const finIndex = allWordsAndVerbs.indexOf(findWord);
 // alert(`¿Does the word exist in the dictionary? [${findWord}] [${finIndex}]`);
 
-const findRV = convertReVerbs.find(item => item === 'manage');
+const findRV = convertReVerbs.find(item => item === 'pay');
 const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
-const findIV = convertIrreVerbs.find(item => item === `manage`);
+const findIV = convertIrreVerbs.find(item => item === `pay`);
 const findIndexIV = convertIrreVerbs.indexOf(findIV);
 // alert(`Iregular verbs [${findIV}]: ${findIndexIV}`);
 
-const findIn = convertCartography.find(item => item === '');
-const findIndexIn = convertCartography.indexOf(findIn);
+const findIn = convertTechnology.find(item => item === 'tools');
+const findIndexIn = convertTechnology.indexOf(findIn);
 // alert(`Word: ${findIn}, Index: ${findIndexIn}`);
 
 // console.log(`List of verbs: ${listOfdVerbs.length}`);
@@ -1555,7 +1554,7 @@ const findIndexIn = convertCartography.indexOf(findIn);
 /*--- DELETE WORDS ---*/
 const DeleteWords = () => {
 
-    allWords.splice(0, 279);
+    allWords.splice(0, 338);
 
     console.log(allWords.length);
     console.log(allWords);

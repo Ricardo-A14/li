@@ -1,6 +1,9 @@
 
 import { allWords } from "./dictionaries";
 
+const auxiliarVerb = ['can', 'could', 'will', 'would', 'should', 'may', 'might', 'must'];
+const conjunctions = []
+
 
 const words = [
     { word: 'I', pronunciation: 'ai', definition: 'Yo' },
@@ -97,7 +100,7 @@ const words = [
     { word: 'Cartography', pronunciation: 'kartagrefi', definition: 'Cartografía' },
     { word: 'Case', pronunciation: 'kes', definition: 'Caso' },
     { word: 'Charger', pronunciation: 'charyer', definition: 'Cargador' },
-    { word: 'Cew', pronunciation: 'kru', definition: 'Grupo - equipo' },
+    { word: 'Crew', pronunciation: 'kru', definition: 'Grupo - equipo' },
     { word: 'City', pronunciation: 'siti', definition: 'Ciudad' },
     { word: 'Cliff', pronunciation: 'klif', definition: 'Acantilado' },
     { word: 'Clothes', pronunciation: 'klotz', definition: 'Ropa' },
@@ -270,14 +273,64 @@ const words = [
     { word: 'Men', pronunciation: 'men', definition: 'Hombres' },
     { word: 'Message', pronunciation: 'mesich', definition: 'Mensaje' },
     { word: 'Metrics', pronunciation: 'metriks', definition: 'Métrica' },
+    { word: 'Microphone', pronunciation: 'maikre-fon', definition: 'Micrófono' },
+    { word: 'Migration', pronunciation: 'mai-greichen', definition: 'Miración' },
+    { word: 'Mind', pronunciation: 'maind', definition: 'Mente' },
+    { word: 'Mirror', pronunciation: 'mirror', definition: 'Espejo' },
+    { word: 'Mobile', pronunciation: '', definition: 'Móvil' },
+    { word: 'Moment', pronunciation: 'moment', definition: 'Momento' },
+    { word: 'Monitor', pronunciation: 'maneder', definition: 'Monitor' },
+    { word: 'More', pronunciation: 'mor', definition: 'Más' },
+    { word: 'Most', pronunciation: 'most', definition: 'Más' },
+    { word: 'Mother', pronunciation: 'moder', definition: 'Mamá' },
+    { word: 'Mountain', pronunciation: 'maun-ten', definition: '' },
+    { word: 'Mouse', pronunciation: 'maus', definition: 'Ratón' },
+    { word: 'Much', pronunciation: 'mach', definition: 'Mucho' },
 
+    { word: 'National', pronunciation: 'nashenal', definition: 'Nacional' },
+    { word: 'Natural', pronunciation: '', definition: 'Natural' },
+    { word: 'Nature', pronunciation: 'neicher', definition: 'Naturaleza' },
+    { word: 'Navigation', pronunciation: 'navi-gueichen', definition: 'Navegación' },
+    { word: 'Network', pronunciation: 'net-work', definition: 'Red' },
+    { word: 'Never', pronunciation: 'never', definition: 'Nunca' },
+    { word: 'New', pronunciation: 'niu', definition: 'Nuevo' },
+    { word: 'Next', pronunciation: 'next', definition: 'Siguiente' },
     { word: 'Night', pronunciation: 'nait', definition: 'Noche' },
+    { word: 'No', pronunciation: 'nou', definition: 'No' },
+    { word: 'North', pronunciation: 'nort', definition: 'Norte' },
 
-    { word: 'Orange', pronunciation: 'oranch', definition: 'Naranja' },
-    { word: 'of', pronunciation: 'of', definition: 'De' },
+
+    { word: 'Northwest', pronunciation: 'nort-west', definition: 'Noroeste' },
+    { word: 'Not', pronunciation: 'not', definition: 'No' },
+    { word: 'Nothing', pronunciation: 'noting', definition: 'Nada' },
+    { word: 'Now', pronunciation: 'nao', definition: 'Ahora' },
+    { word: 'Number', pronunciation: 'namber', definition: 'Número' },
+
+    { word: 'Of', pronunciation: 'of', definition: 'De' },
+    { word: 'Off', pronunciation: 'of', definition: 'Apagado' },
+    { word: 'Often', pronunciation: 'afen', definition: 'Con frecuencia' },
+    { word: 'Oil', pronunciation: 'oil', definition: 'Aceite' },
+    { word: 'Old', pronunciation: 'old', definition: 'Viejo' },
+    { word: 'Once', pronunciation: 'uans', definition: 'Una vez - Alguna vez' },
+    { word: 'One', pronunciation: 'uan', definition: 'Uno' },
+    { word: 'Oneline', pronunciation: 'on-lain', definition: 'En línea' },
+    { word: 'Only', pronunciation: 'only', definition: 'Solo' },
+    { word: 'Or', pronunciation: 'or', definition: 'O' },
+    { word: 'Orientation', pronunciation: 'orien-teichen', definition: 'Orientación' },
+    { word: 'Other', pronunciation: 'oder', definition: 'Otro' },
+    { word: 'Our', pronunciation: 'aur', definition: 'Nuestro' },
+    { word: 'Out', pronunciation: 'aut', definition: 'Afuera' },
+    { word: 'Output', pronunciation: 'aut-put', definition: 'Producción - Salida' },
+    { word: 'Over', pronunciation: 'over', definition: 'Encima - Más de - Terminado' },
+    { word: 'Own', pronunciation: 'oun', definition: 'Aceptar - Propio' },
     { word: 'On', pronunciation: 'an', definition: 'En' },
+    { word: 'Orange', pronunciation: 'oranch', definition: 'Naranja' },
 
+    { word: 'Page', pronunciation: 'pech', definition: 'Página' },
+    { word: 'Part', pronunciation: 'part', definition: 'Parte' },
+    { word: 'Patch', pronunciation: 'pach', definition: 'Parche' },
     { word: 'Port', pronunciation: 'port', definition: 'Puerto' },
+
 
     { word: 'Reach', pronunciation: 'ruich', definition: 'Alcanzar' },
     { word: 'Response', pronunciation: 'ris-pans', definition: 'Respuesta' },
@@ -320,7 +373,7 @@ const findWord = words.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'kit';
+    var word = 'no';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {
