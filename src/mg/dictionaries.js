@@ -897,7 +897,13 @@ lean
 improve
 dream
 plant
+print
+travel
+purify
+protect
+program
 plan
+press
 poison
 make
 play
@@ -1537,11 +1543,11 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 /*--- LOOKING FOR WORDS ---*/
-const findWord = allWordsAndVerbs.find(item => item === 'poison');
+const findWord = allWordsAndVerbs.find(item => item === 'purify');
 const finIndex = allWordsAndVerbs.indexOf(findWord);
 // alert(`¿Does the word exist in the dictionary? [${findWord}] [${finIndex}]`);
 
-const findRV = convertReVerbs.find(item => item === 'poison');
+const findRV = convertReVerbs.find(item => item === 'purify');
 const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
@@ -1549,7 +1555,7 @@ const findIV = convertIrreVerbs.find(item => item === `pay`);
 const findIndexIV = convertIrreVerbs.indexOf(findIV);
 // alert(`Iregular verbs [${findIV}]: ${findIndexIV}`);
 
-const findIn = convertTechnology.find(item => item === 'tools');
+const findIn = convertTechnology.find(item => item === 'wound');
 const findIndexIn = convertTechnology.indexOf(findIn);
 // alert(`Word: ${findIn}, Index: ${findIndexIn}`);
 
@@ -1559,7 +1565,7 @@ const findIndexIn = convertTechnology.indexOf(findIn);
 /*--- DELETE WORDS ---*/
 const DeleteWords = () => {
 
-    allWords.splice(0, 354);
+    allWords.splice(0, 365);
 
     console.log(allWords.length);
     console.log(allWords);

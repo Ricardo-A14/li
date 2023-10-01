@@ -263,6 +263,7 @@ const words = [
 
 
     { word: 'Machete', pronunciation: 'macheti', definition: 'Machete' },
+    { word: 'Machine', pronunciation: 'ma-chin', definition: 'Máquina' },
     { word: 'Medication', pronunciation: 'medi-keichen', definition: 'Medicamento' },
     { word: 'Meat', pronunciation: 'mit', definition: 'Carne' },
     { word: 'Mistake', pronunciation: 'mesteik', definition: 'Error' },
@@ -348,6 +349,16 @@ const words = [
     { word: 'politician', pronunciation: 'poli-tishen', definition: 'Político' },
 
 
+
+    { word: 'Press', pronunciation: '', definition: 'Político' },
+    { word: 'Printer', pronunciation: 'printer', definition: 'Impresora' },
+    { word: 'Problem', pronunciation: 'prable', definition: 'Problema' },
+    { word: 'Project', pronunciation: 'proyect', definition: 'Proyecto' },
+    { word: 'Projection', pronunciation: 'proyec-shen', definition: 'Proyección' },
+    { word: 'Protection', pronunciation: 'protec-shen', definition: 'Protección' },
+    { word: 'Purifier', pronunciation: '', definition: 'Purificador' },
+
+
     { word: 'Reach', pronunciation: 'ruich', definition: 'Alcanzar' },
     { word: 'Response', pronunciation: 'ris-pans', definition: 'Respuesta' },
     { word: 'Rice', pronunciation: 'raiz', definition: 'Arroz' },
@@ -364,6 +375,7 @@ const words = [
     { word: 'Time', pronunciation: 'Taim', definition: 'Tiempo' },
     { word: 'Then', pronunciation: 'den', definition: 'Entonces' },
     { word: 'Train', pronunciation: 'trein', definition: 'Entrenar - Tren' },
+    { word: 'Trouble', pronunciation: 'truabol', definition: 'Problemas' },
 
     { word: 'Until', pronunciation: 'antil', definition: 'Hasta' },
     { word: 'Unless', pronunciation: 'enles', definition: 'A menos que' },
@@ -373,6 +385,7 @@ const words = [
 
     { word: 'With', pronunciation: 'uit', definition: 'Con' },
     { word: 'Without', pronunciation: 'uit-out', definition: 'Sin' },
+    { word: 'Wound', pronunciation: 'wud', definition: 'Herida' },
     { word: 'Whether', pronunciation: 'ueder', definition: 'Si' },
 
 
