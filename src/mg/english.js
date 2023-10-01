@@ -263,9 +263,9 @@ const words = [
 
 
     { word: 'Machete', pronunciation: 'macheti', definition: 'Machete' },
-    { word: 'My', pronunciation: 'may', definition: 'Mi' },
-    { word: 'Mistake', pronunciation: 'mesteik', definition: 'Error' },
+    { word: 'Medication', pronunciation: 'medi-keichen', definition: 'Medicamento' },
     { word: 'Meat', pronunciation: 'mit', definition: 'Carne' },
+    { word: 'Mistake', pronunciation: 'mesteik', definition: 'Error' },
     { word: 'Many', pronunciation: 'meni', definition: 'Muchos' },
     { word: 'Map', pronunciation: 'map', definition: 'Mapa' },
     { word: 'Medicine', pronunciation: 'medisin', definition: 'Medicamento' },
@@ -286,6 +286,7 @@ const words = [
     { word: 'Mountain', pronunciation: 'maun-ten', definition: '' },
     { word: 'Mouse', pronunciation: 'maus', definition: 'Ratón' },
     { word: 'Much', pronunciation: 'mach', definition: 'Mucho' },
+    { word: 'My', pronunciation: 'may', definition: 'Mi' },
 
     { word: 'National', pronunciation: 'nashenal', definition: 'Nacional' },
     { word: 'Natural', pronunciation: '', definition: 'Natural' },
@@ -330,6 +331,21 @@ const words = [
     { word: 'Part', pronunciation: 'part', definition: 'Parte' },
     { word: 'Patch', pronunciation: 'pach', definition: 'Parche' },
     { word: 'Port', pronunciation: 'port', definition: 'Puerto' },
+    { word: 'People', pronunciation: 'pipol', definition: 'Personas' },
+    { word: 'Performance', pronunciation: 'per-formans', definition: 'Rendimiento' },
+    { word: 'Peel', pronunciation: 'pil', definition: 'Rendimiento' },
+    { word: 'Phone', pronunciation: 'fon', definition: 'Teléfono' },
+    { word: 'Photography', pronunciation: 'fotagrefi', definition: 'Fotografía' },
+    { word: 'physical', pronunciation: 'fisical', definition: 'Física' },
+    { word: 'physics', pronunciation: 'fisiks', definition: 'Física' },
+    { word: 'Pill', pronunciation: 'pil', definition: 'Píldora' },
+    { word: 'Place', pronunciation: 'pleis', definition: 'Lugar' },
+    { word: 'Plane', pronunciation: 'plein', definition: 'Plano' },
+    { word: 'Point', pronunciation: 'point', definition: 'Punto' },
+    { word: 'Poisonous', pronunciation: 'poisenes', definition: 'Venenoso' },
+    { word: 'Political', pronunciation: '', definition: 'Política' },
+    { word: 'Politics', pronunciation: 'poli-tiks', definition: '' },
+    { word: 'politician', pronunciation: 'poli-tishen', definition: 'Político' },
 
 
     { word: 'Reach', pronunciation: 'ruich', definition: 'Alcanzar' },
@@ -373,7 +389,7 @@ const findWord = words.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'no';
+    var word = 'venom';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {

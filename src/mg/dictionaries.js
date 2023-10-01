@@ -896,7 +896,12 @@ learn
 lean
 improve
 dream
+plant
+plan
+poison
 make
+play
+penetrate
 dehydrate
 made
 open
@@ -1532,11 +1537,11 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 /*--- LOOKING FOR WORDS ---*/
-const findWord = allWordsAndVerbs.find(item => item === 'system');
+const findWord = allWordsAndVerbs.find(item => item === 'poison');
 const finIndex = allWordsAndVerbs.indexOf(findWord);
 // alert(`¿Does the word exist in the dictionary? [${findWord}] [${finIndex}]`);
 
-const findRV = convertReVerbs.find(item => item === 'pay');
+const findRV = convertReVerbs.find(item => item === 'poison');
 const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
@@ -1554,7 +1559,7 @@ const findIndexIn = convertTechnology.indexOf(findIn);
 /*--- DELETE WORDS ---*/
 const DeleteWords = () => {
 
-    allWords.splice(0, 338);
+    allWords.splice(0, 354);
 
     console.log(allWords.length);
     console.log(allWords);
