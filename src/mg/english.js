@@ -2,7 +2,7 @@
 import { allWords } from "./dictionaries";
 
 const auxiliarVerb = ['can', 'could', 'will', 'would', 'should', 'may', 'might', 'must'];
-const conjunctions = []
+const conjunctions = [];
 
 
 const words = [
@@ -329,6 +329,7 @@ const words = [
     { word: 'Orange', pronunciation: 'oranch', definition: 'Naranja' },
 
     { word: 'Page', pronunciation: 'pech', definition: 'Página' },
+    { word: 'Pad', pronunciation: 'pad', definition: 'Colchoneta' },
     { word: 'Part', pronunciation: 'part', definition: 'Parte' },
     { word: 'Patch', pronunciation: 'pach', definition: 'Parche' },
     { word: 'Port', pronunciation: 'port', definition: 'Puerto' },
@@ -340,6 +341,7 @@ const words = [
     { word: 'physical', pronunciation: 'fisical', definition: 'Física' },
     { word: 'physics', pronunciation: 'fisiks', definition: 'Física' },
     { word: 'Pill', pronunciation: 'pil', definition: 'Píldora' },
+    { word: 'Pillow', pronunciation: '', definition: '' },
     { word: 'Place', pronunciation: 'pleis', definition: 'Lugar' },
     { word: 'Plane', pronunciation: 'plein', definition: 'Plano' },
     { word: 'Point', pronunciation: 'point', definition: 'Punto' },
@@ -357,13 +359,60 @@ const words = [
     { word: 'Projection', pronunciation: 'proyec-shen', definition: 'Proyección' },
     { word: 'Protection', pronunciation: 'protec-shen', definition: 'Protección' },
     { word: 'Purifier', pronunciation: '', definition: 'Purificador' },
-
-
+    { word: 'Question', pronunciation: 'cues-chen', definition: 'Pregunta' },
+    { word: 'Radio', pronunciation: '', definition: 'Radio' },
+    { word: 'Range', pronunciation: 'ruench', definition: 'Rango' },
     { word: 'Reach', pronunciation: 'ruich', definition: 'Alcanzar' },
+    { word: 'Real', pronunciation: 'ruial', definition: 'Real' },
+    { word: 'Reality', pronunciation: 'ruialidi', definition: 'Realidad' },
+    { word: 'Recovery', pronunciation: '', definition: '' },
+    { word: 'Relief', pronunciation: 'relif', definition: 'Socorro - Relieve' },
+    { word: 'Remote', pronunciation: 'remout', definition: 'Remoto' },
     { word: 'Response', pronunciation: 'ris-pans', definition: 'Respuesta' },
-    { word: 'Rice', pronunciation: 'raiz', definition: 'Arroz' },
-    { word: 'Rope', pronunciation: 'rop', definition: 'Soga' },
     { word: 'Repellent', pronunciation: 'ripelent', definition: 'Repelente' },
+    { word: 'Rifle', pronunciation: 'ruai-fol', definition: 'Rifle' },
+    { word: 'Right', pronunciation: 'rua-it', definition: 'Derecha - correcto - razon' },
+    { word: 'River', pronunciation: 'ruiver', definition: 'Río' },
+    { word: 'Rice', pronunciation: 'raiz', definition: 'Arroz' },
+    { word: 'Road', pronunciation: 'roud', definition: 'Carretera - Camino' },
+    { word: 'Robotics', pronunciation: 'rou-badiks', definition: 'Robótica' },
+    { word: 'Rope', pronunciation: 'rop', definition: 'Soga' },
+
+    { word: 'Route', pronunciation: 'rut', definition: 'Ruta' },
+    { word: 'Security', pronunciation: 'rut', definition: 'Ruta' },
+    { word: 'Same', pronunciation: 'seim', definition: 'Mismo' },
+    { word: 'Satellite', pronunciation: '', definition: 'Satélite' },
+    { word: 'Scale', pronunciation: 'skel', definition: 'Escala' },
+    { word: 'School', pronunciation: 'skul', definition: 'Escuela' },
+    { word: 'Scissors', pronunciation: 'si-sors', definition: 'Tijeras' },
+    { word: 'Sea', pronunciation: 'si', definition: 'Mar' },
+    { word: 'Seabed', pronunciation: 'si-bed', definition: 'Fondo del mar' },
+    { word: 'Security', pronunciation: 'se-kiuridi', definition: 'Seguridad' },
+    { word: 'Server', pronunciation: 'server', definition: 'Servidor' },
+    { word: 'Service', pronunciation: 'serves', definition: 'Servicio' },
+    { word: 'Shelter', pronunciation: 'chelter', definition: 'Refugio - Albergue' },
+    { word: 'Side', pronunciation: 'said', definition: 'Lado' },
+    { word: 'Signal', pronunciation: 'signal', definition: 'Señal' },
+    { word: 'Skill', pronunciation: 'skil', definition: 'Habilidad' },
+
+
+
+    { word: 'Sleeping bag', pronunciation: 'sliping-bak', definition: 'Bolsa de dormir' },
+    { word: 'Slope', pronunciation: 'slop', definition: 'Pendiente - Inclinación' },
+    { word: 'Small', pronunciation: 'smol', definition: 'Pequeño' },
+    { word: 'Snake', pronunciation: 'snek', definition: 'Serpiente' },
+    { word: 'So', pronunciation: 'sou', definition: 'Entonces' },
+    { word: 'Some', pronunciation: 'som', definition: 'Alguno' },
+    { word: 'Something', pronunciation: 'som-ting', definition: 'Algo' },
+    { word: 'South', pronunciation: '', definition: 'Sur' },
+    { word: 'Southeast', pronunciation: '', definition: 'Sureste' },
+    { word: 'Southwest', pronunciation: '', definition: 'Sur oeste' },
+    { word: 'Spell', pronunciation: 'spell', definition: 'Deletrear' },
+    { word: 'State', pronunciation: 'steit', definition: 'Estado' },
+    { word: 'Still', pronunciation: 'stell', definition: 'Aún' },
+    { word: 'Storage', pronunciation: 'storech', definition: 'Almacenamiento' },
+    { word: 'Storm', pronunciation: 'storm', definition: 'Tormenta' },
+    { word: 'Story', pronunciation: 'stoty', definition: 'Historia' },
 
     { word: 'Sometimes', pronunciation: 'somtaims', definition: 'A veces' },
     { word: 'Shower', pronunciation: 'shouer', definition: 'Ducha' },
@@ -371,11 +420,13 @@ const words = [
     { word: 'Soda', pronunciation: 'soda', definition: 'Gaseosa' },
     { word: 'Since', pronunciation: 'sens', definition: 'Desde' },
 
-    { word: 'To', pronunciation: 'tu', definition: '' },
+
+    { word: 'technique', pronunciation: 'tec-nic', definition: 'Técnica' },
     { word: 'Time', pronunciation: 'Taim', definition: 'Tiempo' },
+    { word: 'To', pronunciation: 'tu', definition: '' },
     { word: 'Then', pronunciation: 'den', definition: 'Entonces' },
-    { word: 'Train', pronunciation: 'trein', definition: 'Entrenar - Tren' },
     { word: 'Trouble', pronunciation: 'truabol', definition: 'Problemas' },
+    { word: 'Train', pronunciation: 'trein', definition: 'Entrenar - Tren' },
 
     { word: 'Until', pronunciation: 'antil', definition: 'Hasta' },
     { word: 'Unless', pronunciation: 'enles', definition: 'A menos que' },
@@ -383,11 +434,13 @@ const words = [
     { word: 'Video', pronunciation: 'vidio', definition: 'Video' },
     { word: 'Variation', pronunciation: '', definition: 'Variación' },
 
+    { word: 'Wave', pronunciation: 'ueiv', definition: 'Ola - Onda' },
     { word: 'With', pronunciation: 'uit', definition: 'Con' },
     { word: 'Without', pronunciation: 'uit-out', definition: 'Sin' },
     { word: 'Wound', pronunciation: 'wud', definition: 'Herida' },
     { word: 'Whether', pronunciation: 'ueder', definition: 'Si' },
 
+    { word: 'Yet', pronunciation: 'yet', definition: 'Todavía' },
 
 ];
 
@@ -402,7 +455,7 @@ const findWord = words.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'venom';
+    var word = 'yet';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {

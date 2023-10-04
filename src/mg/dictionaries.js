@@ -894,9 +894,18 @@ const regularVerbs = `smell
 shave
 learn
 lean
+return
+seem
+start
+report
+search
+stop
+save
 improve
 dream
+rescue
 plant
+recover
 print
 travel
 purify
@@ -1543,17 +1552,17 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 /*--- LOOKING FOR WORDS ---*/
-const findWord = allWordsAndVerbs.find(item => item === 'purify');
+const findWord = allWordsAndVerbs.find(item => item === 'yet');
 const finIndex = allWordsAndVerbs.indexOf(findWord);
 // alert(`¿Does the word exist in the dictionary? [${findWord}] [${finIndex}]`);
 
-const findRV = convertReVerbs.find(item => item === 'purify');
+const findRV = convertReVerbs.find(item => item === 'stop');
 const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
-const findIV = convertIrreVerbs.find(item => item === `pay`);
+const findIV = convertIrreVerbs.find(item => item === `set`);
 const findIndexIV = convertIrreVerbs.indexOf(findIV);
-// alert(`Iregular verbs [${findIV}]: ${findIndexIV}`);
+// alert(`Iregular ver]bs [${findIV}]: ${findIndexIV}`);
 
 const findIn = convertTechnology.find(item => item === 'wound');
 const findIndexIn = convertTechnology.indexOf(findIn);
@@ -1565,7 +1574,7 @@ const findIndexIn = convertTechnology.indexOf(findIn);
 /*--- DELETE WORDS ---*/
 const DeleteWords = () => {
 
-    allWords.splice(0, 365);
+    allWords.splice(0, 432);
 
     console.log(allWords.length);
     console.log(allWords);
@@ -1574,7 +1583,7 @@ const DeleteWords = () => {
 }
 DeleteWords();
 
-const find = allWords.includes(`lamp`);
+const find = allWords.find(item => item === 'yet');
 // console.log(`Word [${find}]`);
 
 
