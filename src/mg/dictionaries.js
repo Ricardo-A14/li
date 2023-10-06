@@ -893,11 +893,20 @@ Cost`.toLowerCase();
 const regularVerbs = `smell
 shave
 learn
+heat
 lean
 return
 seem
+Appear
+whistle 
+warn
+use
+study
+survive
 start
+support
 report
+test
 search
 stop
 save
@@ -1531,7 +1540,7 @@ const convertWords3 = words3.split('\n');
 const convertSurvival = survival.split('\n');
 const convertCartography = cartography.split('\n');
 const convertTechnology = technology.split('\n');
-const convertReVerbs = regularVerbs.split(`\n`);
+const convertReVerbs = regularVerbs.split(`\n`).sort();
 const convertIrreVerbs = irregularVerbs.split(`\n`);
 const convertPhrasalVerbs = phrasalVerbs.split('\n');
 
@@ -1552,15 +1561,15 @@ const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
 
 /*--- LOOKING FOR WORDS ---*/
-const findWord = allWordsAndVerbs.find(item => item === 'yet');
+const findWord = allWordsAndVerbs.find(item => item === 'will');
 const finIndex = allWordsAndVerbs.indexOf(findWord);
 // alert(`¿Does the word exist in the dictionary? [${findWord}] [${finIndex}]`);
 
-const findRV = convertReVerbs.find(item => item === 'stop');
+const findRV = convertReVerbs.find(item => item === 'warn');
 const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
-const findIV = convertIrreVerbs.find(item => item === `set`);
+const findIV = convertIrreVerbs.find(item => item === `go`);
 const findIndexIV = convertIrreVerbs.indexOf(findIV);
 // alert(`Iregular ver]bs [${findIV}]: ${findIndexIV}`);
 
@@ -1574,10 +1583,11 @@ const findIndexIn = convertTechnology.indexOf(findIn);
 /*--- DELETE WORDS ---*/
 const DeleteWords = () => {
 
-    allWords.splice(0, 432);
+    // allWords.splice(0, 538);
+    convertReVerbs.splice(0, 0);
 
-    console.log(allWords.length);
-    console.log(allWords);
+    console.log(convertReVerbs.length);
+    console.log(convertReVerbs);
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }
