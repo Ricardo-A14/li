@@ -895,7 +895,9 @@ shave
 learn
 heat
 lean
+arrive
 return
+merge
 seem
 Appear
 whistle 
@@ -1540,14 +1542,14 @@ const convertWords3 = words3.split('\n');
 const convertSurvival = survival.split('\n');
 const convertCartography = cartography.split('\n');
 const convertTechnology = technology.split('\n');
+
 const convertReVerbs = regularVerbs.split(`\n`).sort();
+const setReVerbs = new Set(convertReVerbs);
+const regVerbs = Array.from(setReVerbs);
+
 const convertIrreVerbs = irregularVerbs.split(`\n`);
 const convertPhrasalVerbs = phrasalVerbs.split('\n');
 
-/*--- GROUPING REGULAR VERBS AND IRREGULAR VERBS ---*/
-const allConvertedVerbs = [...convertIrreVerbs, ...convertReVerbs].sort();
-const checkVerbs = new Set(allConvertedVerbs);
-const listOfdVerbs = Array.from(checkVerbs);
 
 /*--- GROUPING WORDS ---*/
 const groupOfWords = [...convertWord1, ...convertWords2, convertWords3, ...convertSurvival, ...convertCartography, ...convertTechnology];
@@ -1555,7 +1557,7 @@ const setWords = new Set(groupOfWords);
 const allWords = Array.from(setWords).sort();
 
 /*--- GROUPING VERBS AND WORDS ---*/
-const groupVerbWords = [...convertWord1, ...convertWords2, ...convertWords3, ...convertSurvival, ...convertCartography, ...convertTechnology, ...convertPhrasalVerbs, ...listOfdVerbs];
+const groupVerbWords = [...convertWord1, ...convertWords2, ...convertWords3, ...convertSurvival, ...convertCartography, ...convertTechnology, ...convertPhrasalVerbs, ...convertReVerbs, ...convertIrreVerbs];
 const setVerbWords = new Set(groupVerbWords);
 const allWordsAndVerbs = Array.from(setVerbWords).sort();
 
@@ -1565,7 +1567,7 @@ const findWord = allWordsAndVerbs.find(item => item === 'will');
 const finIndex = allWordsAndVerbs.indexOf(findWord);
 // alert(`¿Does the word exist in the dictionary? [${findWord}] [${finIndex}]`);
 
-const findRV = convertReVerbs.find(item => item === 'warn');
+const findRV = convertReVerbs.find(item => item === 'merge');
 const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
@@ -1584,10 +1586,10 @@ const findIndexIn = convertTechnology.indexOf(findIn);
 const DeleteWords = () => {
 
     // allWords.splice(0, 538);
-    convertReVerbs.splice(0, 0);
+    regVerbs.splice(0, 28);
 
-    console.log(convertReVerbs.length);
-    console.log(convertReVerbs);
+    console.log(regVerbs.length);
+    console.log(regVerbs);
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }

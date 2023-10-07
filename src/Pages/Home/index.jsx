@@ -1,10 +1,13 @@
 import Words from "../../Components/Words";
 
-import { words } from "../../mg/english";
+import { words, auxiliarVerbs, regularVerbs } from "../../mg/english";
 
 import "./Home.css";
 
 const Home = () => {
+
+  const allWords = [...words, ...auxiliarVerbs, ...regularVerbs]
+
   return (
     <div className="home">
       <div className="words_container">
@@ -15,9 +18,10 @@ const Home = () => {
         </div>
       </div>
 
-      {words.map((element, index) => {
+      {allWords.map((element, index) => {
         return <Words word={element} index={index} key={index} />;
       })}
+
     </div>
   );
 };

@@ -1,9 +1,6 @@
 
 import { allWords } from "./dictionaries";
 
-const auxiliarVerb = ['can', 'could', 'will', 'would', 'should', 'may', 'might', 'must'];
-const conjunctions = [];
-
 
 const words = [
     { word: 'I', pronunciation: 'ai', definition: 'Yo' },
@@ -28,7 +25,6 @@ const words = [
     { word: 'Again', pronunciation: 'eguen', definition: 'Otra vez' },
     { word: 'Against', pronunciation: 'eguenst', definition: 'En contra' },
     { word: 'Agreement', pronunciation: 'agriment', definition: 'Acuerdo' },
-    { word: 'Aim', pronunciation: 'em', definition: 'Apuntar' },
     { word: 'Air', pronunciation: 'er', definition: 'Aire' },
     { word: 'Algorithm', pronunciation: 'algridem', definition: 'Algoritmo' },
     { word: 'All', pronunciation: 'oll', definition: 'Todo - todos' },
@@ -88,6 +84,7 @@ const words = [
     { word: 'Camera', pronunciation: '', definition: 'Cámara' },
     { word: 'Campfire', pronunciation: 'camp-faier', definition: 'Hoguera - Fogata' },
     { word: 'Card', pronunciation: 'card', definition: 'Tarjeta' },
+    { word: 'Certain', pronunciation: 'cert-en', definition: 'Cierto' },
     { word: 'Coffee', pronunciation: 'cofi', definition: 'Café' },
     { word: 'Chocolate', pronunciation: '', definition: 'Chocolate' },
     { word: 'Chicken', pronunciation: 'chiken', definition: 'Pollo' },
@@ -148,6 +145,7 @@ const words = [
     { word: 'Early', pronunciation: 'erly', definition: 'Temprano' },
     { word: 'Every', pronunciation: 'ebri', definition: 'Cada' },
     { word: 'Even', pronunciation: 'iven', definition: 'Incluso' },
+    { word: 'Event', pronunciation: 'event', definition: 'Evento' },
     { word: 'Eyes', pronunciation: 'ai', definition: 'Ojo' },
 
     { word: 'Fact', pronunciation: 'fakt', definition: 'Hecho' },
@@ -500,19 +498,56 @@ const words = [
     { word: 'Your', pronunciation: 'iur', definition: 'Su' },
 
 ];
-
-const regularVerbs = [];
+const regularVerbs = [
+    { word: 'Accept', pronunciation: 'ak-sept', definition: 'Aceptar' },
+    { word: 'Access', pronunciation: 'ak-ses', definition: 'Acceder - Acceso' },
+    { word: 'Act', pronunciation: 'act', definition: 'Actuar, Acto' },
+    { word: 'Add', pronunciation: 'ad', definition: 'Agregar' },
+    { word: 'Admire', pronunciation: 'edmaier', definition: 'Admirar' },
+    { word: 'Admire', pronunciation: 'edmaier', definition: 'Admirar' },
+    { word: 'Admit', pronunciation: 'edmit', definition: 'Admitir' },
+    { word: 'Advise', pronunciation: 'ed-vais', definition: 'Aconsejar' },
+    { word: 'Agree', pronunciation: 'agri', definition: 'Aceptar - Acordar' },
+    { word: 'Aim', pronunciation: 'eim', definition: 'Apuntar' },
+    { word: 'Allow', pronunciation: 'alau', definition: 'Permitir' },
+    { word: 'Analyze', pronunciation: 'enalais', definition: 'Analizar' },
+    { word: 'Announce', pronunciation: 'anauns', definition: 'Anunciar' },
+    { word: 'Answer', pronunciation: 'enser', definition: 'Responder - Respuesta' },
+    { word: 'Appear', pronunciation: 'apir', definition: 'Aparecer' },
+    { word: 'Apply', pronunciation: 'aplay', definition: 'Aplicar' },
+    { word: 'Appreciate', pronunciation: 'aprishi-eit', definition: 'Agradecer' },
+    { word: 'Approach', pronunciation: 'aproch', definition: 'Acercarse' },
+    { word: 'Approve', pronunciation: 'apruv', definition: 'Aprobar' },
+    { word: 'Argue', pronunciation: 'arruench', definition: 'Pactar - Planificar - Organizar' },
+    { word: 'Arrive', pronunciation: '', definition: 'Llegar' },
+    { word: 'Ask', pronunciation: 'ask', definition: 'Preguntar' },
+    { word: 'Assess', pronunciation: 'ases', definition: 'Evaluar - Analizar' },
+    { word: 'Assume', pronunciation: 'asum', definition: 'Asumir' },
+    { word: 'Attach', pronunciation: 'atach', definition: 'Adjuntar - Añadir' },
+    { word: 'Attack', pronunciation: 'atak', definition: 'Atacar - Ataque' },
+    { word: 'Attend', pronunciation: 'atend', definition: 'Atender - Asistir' },
+];
 const irregularVerbs = [];
+const auxiliarVerbs = [
+    { word: 'Can', pronunciation: 'can', definition: 'Poder' },
+    { word: 'Could', pronunciation: 'cud', definition: 'Podría' },
+    { word: 'Will', pronunciation: 'uill', definition: 'Verbo auxiliar futuro' },
+    { word: 'Would', pronunciation: 'wud', definition: '' },
+    { word: 'Should', pronunciation: 'shud', definition: 'Debería' },
+    { word: 'May', pronunciation: 'mey', definition: 'Puede' },
+    { word: 'Might', pronunciation: 'mait', definition: '' },
+    { word: 'Must', pronunciation: 'most', definition: 'Debe' },
+];
 const phrasalVerbs = [];
 
 
-const findWord = words.map((element) => {
+const findWord = regularVerbs.map((element) => {
     return element.word.toLowerCase();
 })
 
 const FindRepeatedWords = () => {
 
-    var word = 'your';
+    var word = 'certain';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {
@@ -536,7 +571,7 @@ const FindRepeatedWords = () => {
 // console.log(`Number of words: ${findWord.length}`);
 
 
-export { words };
+export { words, auxiliarVerbs, regularVerbs };
 
 
 
