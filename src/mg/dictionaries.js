@@ -897,6 +897,7 @@ heat
 lean
 arrive
 return
+tie
 merge
 seem
 Appear
@@ -1147,7 +1148,9 @@ bear
 become
 begin
 bend
+bet
 bite
+beat
 bleed
 blow
 break
@@ -1567,11 +1570,11 @@ const findWord = allWordsAndVerbs.find(item => item === 'will');
 const finIndex = allWordsAndVerbs.indexOf(findWord);
 // alert(`¿Does the word exist in the dictionary? [${findWord}] [${finIndex}]`);
 
-const findRV = convertReVerbs.find(item => item === 'merge');
+const findRV = convertReVerbs.find(item => item === 'break');
 const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
-const findIV = convertIrreVerbs.find(item => item === `go`);
+const findIV = convertIrreVerbs.find(item => item === `bring`);
 const findIndexIV = convertIrreVerbs.indexOf(findIV);
 // alert(`Iregular ver]bs [${findIV}]: ${findIndexIV}`);
 
@@ -1586,7 +1589,7 @@ const findIndexIn = convertTechnology.indexOf(findIn);
 const DeleteWords = () => {
 
     // allWords.splice(0, 538);
-    regVerbs.splice(0, 28);
+    regVerbs.splice(0, 61);
 
     console.log(regVerbs.length);
     console.log(regVerbs);

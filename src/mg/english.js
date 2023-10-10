@@ -46,6 +46,7 @@ const words = [
     { word: 'Anywhere', pronunciation: 'eniuer', definition: 'En cualquier lugar' },
     { word: 'Application', pronunciation: 'aplikeichon', definition: 'Aplicación - Solicitud' },
     { word: 'Are', pronunciation: 'ar', definition: 'Son' },
+    { word: 'Arrow', pronunciation: 'arrou', definition: 'Flecha' },
     { word: 'Area', pronunciation: '', definition: 'Área' },
     { word: 'Artificial', pronunciation: 'arde-fishol', definition: 'Artificial' },
     { word: 'As', pronunciation: 'as', definition: 'Como' },
@@ -67,19 +68,23 @@ const words = [
     { word: 'Bandage', pronunciation: 'bendich', definition: 'Vendaje' },
     { word: 'Bread', pronunciation: 'bred', definition: 'Pan' },
     { word: 'Boxing', pronunciation: 'boxing', definition: 'Boxeo' },
+    { word: 'Box', pronunciation: 'box', definition: 'Caja' },
     { word: 'Bear', pronunciation: 'ber', definition: 'Oso' },
     { word: 'Because', pronunciation: 'bicos', definition: 'Porque' },
     { word: 'Before', pronunciation: 'befor', definition: 'antes' },
     { word: 'Between', pronunciation: 'be-tuin', definition: 'Entre' },
     { word: 'Big', pronunciation: 'big', definition: 'Grande' },
     { word: 'Binoculars', pronunciation: 'banakiulers', definition: 'Binoculares' },
+    { word: 'Bow', pronunciation: 'bou', definition: 'Arco' },
     { word: 'Boots', pronunciation: 'buts', definition: 'Botas' },
+    { word: 'Book', pronunciation: 'buk', definition: 'Libro' },
     { word: 'Bottle', pronunciation: '', definition: 'Botella' },
     { word: 'Budget', pronunciation: 'bayet', definition: 'Presupuesto' },
     { word: 'Bug net', pronunciation: 'bag-net', definition: 'Toldillo' },
     { word: 'But', pronunciation: 'bat', definition: 'Pero' },
     { word: 'By', pronunciation: 'bay', definition: 'Por - Mediante - Según - Junto a' },
     { word: 'Below', pronunciation: 'below', definition: 'Abajo' },
+    { word: 'Branch', pronunciation: 'branch', definition: 'Rama' },
 
     { word: 'Camera', pronunciation: '', definition: 'Cámara' },
     { word: 'Campfire', pronunciation: 'camp-faier', definition: 'Hoguera - Fogata' },
@@ -526,6 +531,25 @@ const regularVerbs = [
     { word: 'Attach', pronunciation: 'atach', definition: 'Adjuntar - Añadir' },
     { word: 'Attack', pronunciation: 'atak', definition: 'Atacar - Ataque' },
     { word: 'Attend', pronunciation: 'atend', definition: 'Atender - Asistir' },
+    { word: 'Attract', pronunciation: 'atract', definition: 'Atraer' },
+    { word: 'Avoid', pronunciation: 'avoid', definition: 'Evitar' },
+    { word: 'Back', pronunciation: 'bak', definition: 'Regresar - Atras' },
+    { word: 'Base', pronunciation: 'beis', definition: 'Basar - Establecer' },
+    { word: 'Belive', pronunciation: 'beliv', definition: 'Creer' },
+    { word: 'Belong', pronunciation: 'belong', definition: 'Pertenecer' },
+    { word: 'Blame', pronunciation: 'bleim', definition: 'Culpar - Responsabilidad' },
+    { word: 'Block', pronunciation: 'blok', definition: 'Bloquear - Bloque ' },
+
+    { word: 'Boil', pronunciation: 'boil', definition: 'Hervir' },
+    { word: 'Borrow', pronunciation: '', definition: 'Pedir prestado' },
+    { word: 'Bother', pronunciation: 'bader', definition: 'Molestar' },
+    { word: 'Bounce', pronunciation: 'bauns', definition: 'Rebotar' },
+    { word: 'Breathe', pronunciation: 'bruid', definition: 'Respirar' },
+    { word: 'Brush', pronunciation: 'brach', definition: 'Cepillar' },
+
+
+    { word: 'Drill', pronunciation: 'druil', definition: 'Perforar' },
+
 ];
 const irregularVerbs = [];
 const auxiliarVerbs = [
@@ -547,7 +571,7 @@ const findWord = regularVerbs.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'certain';
+    var word = 'arrow';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {
