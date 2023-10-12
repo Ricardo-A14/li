@@ -101,6 +101,7 @@ const words = [
     { word: 'Cartography', pronunciation: 'kartagrefi', definition: 'Cartografía' },
     { word: 'Case', pronunciation: 'kes', definition: 'Caso' },
     { word: 'Charger', pronunciation: 'charyer', definition: 'Cargador' },
+    { word: 'Center', pronunciation: 'center', definition: 'centro' },
     { word: 'Crew', pronunciation: 'kru', definition: 'Grupo - equipo' },
     { word: 'City', pronunciation: 'siti', definition: 'Ciudad' },
     { word: 'Cliff', pronunciation: 'klif', definition: 'Acantilado' },
@@ -539,13 +540,26 @@ const regularVerbs = [
     { word: 'Belong', pronunciation: 'belong', definition: 'Pertenecer' },
     { word: 'Blame', pronunciation: 'bleim', definition: 'Culpar - Responsabilidad' },
     { word: 'Block', pronunciation: 'blok', definition: 'Bloquear - Bloque ' },
-
     { word: 'Boil', pronunciation: 'boil', definition: 'Hervir' },
     { word: 'Borrow', pronunciation: '', definition: 'Pedir prestado' },
     { word: 'Bother', pronunciation: 'bader', definition: 'Molestar' },
     { word: 'Bounce', pronunciation: 'bauns', definition: 'Rebotar' },
     { word: 'Breathe', pronunciation: 'bruid', definition: 'Respirar' },
     { word: 'Brush', pronunciation: 'brach', definition: 'Cepillar' },
+    { word: 'Burn', pronunciation: 'bern', definition: 'Quemar' },
+    { word: 'Bury', pronunciation: '', definition: 'Enterrar' },
+    { word: 'Calculate', pronunciation: 'kalkiu-leit', definition: 'Calcular' },
+    { word: 'Call', pronunciation: 'col', definition: 'Llamar' },
+    { word: 'Calm', pronunciation: 'calm', definition: 'Calmar - Calma' },
+    { word: 'Camp', pronunciation: 'camp', definition: 'Acampar - Campamento' },
+    { word: 'Cancel', pronunciation: 'cancel', definition: 'Cancelar' },
+    { word: 'Capture', pronunciation: 'cap-cher', definition: 'Capturar - Captura' },
+    { word: 'Care', pronunciation: 'ker', definition: 'Cuidar - Cuidado' },
+    { word: 'Carry', pronunciation: 'kerrui', definition: 'Llevar - Portar' },
+    { word: 'Cause', pronunciation: 'kas', definition: 'Causar - Causa - Caso' },
+    { word: 'Celebrate', pronunciation: 'sele-breit', definition: 'Celebrar' },
+    { word: 'Challenge', pronunciation: 'chalench', definition: 'Desafiar' },
+    { word: 'Change', pronunciation: 'cheinch', definition: 'Cambiar' },
 
 
     { word: 'Drill', pronunciation: 'druil', definition: 'Perforar' },
@@ -571,7 +585,7 @@ const findWord = regularVerbs.map((element) => {
 
 const FindRepeatedWords = () => {
 
-    var word = 'arrow';
+    var word = 'center';
     let repeatedPosition;
 
     const repeatedWord = findWord.filter((element) => {
