@@ -1574,7 +1574,7 @@ const findRV = convertReVerbs.find(item => item === 'break');
 const findIndexRV = convertReVerbs.indexOf(findRV);
 // alert(`Regular verbs [${findRV}] index: ${findIndexRV}`);
 
-const findIV = convertIrreVerbs.find(item => item === `choose`);
+const findIV = convertIrreVerbs.find(item => item === `come`);
 const findIndexIV = convertIrreVerbs.indexOf(findIV);
 // alert(`Iregular ver]bs [${findIV}]: ${findIndexIV}`);
 
@@ -1588,8 +1588,8 @@ const findIndexIn = convertTechnology.indexOf(findIn);
 /*--- DELETE WORDS ---*/
 const DeleteWords = () => {
 
-    // allWords.splice(0, 538);
-    regVerbs.splice(0, 95);
+    // allWords.splice(0, 548);
+    regVerbs.splice(0, 113);
 
     console.log(regVerbs.length);
     console.log(regVerbs);

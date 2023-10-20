@@ -562,7 +562,6 @@ const regularVerbs = [
     { word: 'Celebrate', pronunciation: 'sele-breit', definition: 'Celebrar' },
     { word: 'Challenge', pronunciation: 'chalench', definition: 'Desafiar' },
     { word: 'Change', pronunciation: 'cheinch', definition: 'Cambiar' },
-
     { word: 'Charge', pronunciation: 'charch', definition: 'Cargar' },
     { word: 'Chase', pronunciation: 'cheis', definition: 'Perseguir' },
     { word: 'Check', pronunciation: 'chek', definition: 'Revisar' },
@@ -574,8 +573,24 @@ const regularVerbs = [
     { word: 'Climb ', pronunciation: 'claim', definition: 'Escalar - Trepar' },
     { word: 'Close', pronunciation: 'clous', definition: 'Cerrar' },
 
+    { word: 'Collect', pronunciation: 'colect', definition: 'Recolectar - Recoger' },
+    { word: 'Comment', pronunciation: 'coument', definition: 'Comentar - Comentario' },
+    { word: 'Communicate', pronunciation: 'comiuni-keit', definition: 'Comunicarse - Comunicar' },
+    { word: 'Compare', pronunciation: 'comper', definition: 'Comparar' },
+    { word: 'Compete', pronunciation: 'compit', definition: 'Competir' },
+    { word: 'Complain', pronunciation: 'com-plein', definition: 'Quejarse - Queja' },
+    { word: 'Complete', pronunciation: 'com-plit', definition: 'Completar' },
+    { word: 'Concentrate', pronunciation: 'cansen-trueit', definition: 'Concentrarse' },
+    { word: 'Conclude', pronunciation: 'ken-klud', definition: 'Concluir' },
+    { word: 'Confess', pronunciation: 'ken-fes', definition: 'Confesar' },
+    { word: 'Confirm', pronunciation: 'ken-ferm', definition: 'Confirmar' },
+    { word: 'Connect', pronunciation: 'ke-nect', definition: 'Conectar' },
+
+
 
     { word: 'Drill', pronunciation: 'druil', definition: 'Perforar' },
+
+    { word: 'Present', pronunciation: 'present', definition: 'Presentar' },
 
 ];
 const irregularVerbs = [];
