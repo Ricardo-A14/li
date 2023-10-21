@@ -534,6 +534,7 @@ const regularVerbs = [
     { word: 'Attend', pronunciation: 'atend', definition: 'Atender - Asistir' },
     { word: 'Attract', pronunciation: 'atract', definition: 'Atraer' },
     { word: 'Avoid', pronunciation: 'avoid', definition: 'Evitar' },
+
     { word: 'Back', pronunciation: 'bak', definition: 'Regresar - Atras' },
     { word: 'Base', pronunciation: 'beis', definition: 'Basar - Establecer' },
     { word: 'Belive', pronunciation: 'beliv', definition: 'Creer' },
@@ -548,6 +549,7 @@ const regularVerbs = [
     { word: 'Brush', pronunciation: 'brach', definition: 'Cepillar' },
     { word: 'Burn', pronunciation: 'bern', definition: 'Quemar' },
     { word: 'Bury', pronunciation: '', definition: 'Enterrar' },
+
     { word: 'Calculate', pronunciation: 'kalkiu-leit', definition: 'Calcular' },
     { word: 'Call', pronunciation: 'col', definition: 'Llamar' },
     { word: 'Calm', pronunciation: 'calm', definition: 'Calmar - Calma' },
@@ -560,6 +562,17 @@ const regularVerbs = [
     { word: 'Celebrate', pronunciation: 'sele-breit', definition: 'Celebrar' },
     { word: 'Challenge', pronunciation: 'chalench', definition: 'Desafiar' },
     { word: 'Change', pronunciation: 'cheinch', definition: 'Cambiar' },
+
+    { word: 'Charge', pronunciation: 'charch', definition: 'Cargar' },
+    { word: 'Chase', pronunciation: 'cheis', definition: 'Perseguir' },
+    { word: 'Check', pronunciation: 'chek', definition: 'Revisar' },
+    { word: 'Cheer', pronunciation: 'chir', definition: 'Animar - Alegría' },
+    { word: 'Claim', pronunciation: 'cleim', definition: 'Reclamar' },
+    { word: 'Clarify', pronunciation: 'cleri-fai', definition: 'Aclarar' },
+    { word: 'Clean', pronunciation: 'clin', definition: 'Limpiar - Limpio' },
+    { word: 'Clear ', pronunciation: 'clir', definition: 'Despejar - Limpio - despejado' },
+    { word: 'Climb ', pronunciation: 'claim', definition: 'Escalar - Trepar' },
+    { word: 'Close', pronunciation: 'clous', definition: 'Cerrar' },
 
 
     { word: 'Drill', pronunciation: 'druil', definition: 'Perforar' },
