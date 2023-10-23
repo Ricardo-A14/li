@@ -584,7 +584,6 @@ const regularVerbs = [
     { word: 'Confess', pronunciation: 'ken-fes', definition: 'Confesar' },
     { word: 'Confirm', pronunciation: 'ken-ferm', definition: 'Confirmar' },
     { word: 'Connect', pronunciation: 'ke-nect', definition: 'Conectar' },
-
     { word: 'Conserve', pronunciation: 'ken-serv', definition: 'Conservar' },
     { word: 'Consider', pronunciation: 'ken-sider', definition: 'Considerar' },
     { word: 'Consist', pronunciation: 'ken-sist', definition: 'Consistir' },
@@ -605,6 +604,7 @@ const regularVerbs = [
     { word: 'Create', pronunciation: 'crieit', definition: 'Crear' },
     { word: 'Cross', pronunciation: 'cros', definition: 'Cruzar - Cruz' },
     { word: 'Cry', pronunciation: 'krai', definition: 'Llorar' },
+
     { word: 'Damage', pronunciation: 'dameich', definition: 'Dañar - Daño' },
     { word: 'Dance', pronunciation: 'dans', definition: 'Bailar - Danza' },
     { word: 'Dare', pronunciation: 'der', definition: 'Atreverse - Atrevimiento - Desafiar' },
@@ -616,6 +616,22 @@ const regularVerbs = [
     { word: 'Decorate', pronunciation: 'decoreit', definition: 'Decorar' },
     { word: 'Decrease', pronunciation: 'de-kruis', definition: 'Disminuir' },
 
+    { word: 'Dehydrate', pronunciation: 'dijai-dreit', definition: 'Deshidratar' },
+    { word: 'Delay', pronunciation: 'delei', definition: 'Retrasar - Posponer - Retraso' },
+    { word: 'Delete', pronunciation: 'delit', definition: 'Eliminar' },
+    { word: 'Deliver', pronunciation: 'deliver', definition: 'Entregar' },
+    { word: 'Demand', pronunciation: 'demand', definition: 'Demandar - Demanda' },
+    { word: 'Demonstrate', pronunciation: 'demenstreit', definition: 'Demostrar' },
+    { word: 'Depend', pronunciation: 'dipend', definition: 'Depender' },
+    { word: 'Deploy', pronunciation: 'deploy', definition: 'Desplegar' },
+    { word: 'Describe', pronunciation: 'des-craib', definition: 'Describir' },
+    { word: 'Design', pronunciation: 'desain', definition: 'Diseñar - Diseño' },
+    { word: 'Desire', pronunciation: 'desaier', definition: 'Desear - Deseo' },
+    { word: 'Destroy', pronunciation: 'distroy', definition: 'Destruir' },
+    { word: 'Detect', pronunciation: 'detect', definition: 'Detectar' },
+    { word: 'Develop', pronunciation: 'develep', definition: 'Desarrollar' },
+    { word: 'Dictate', pronunciation: 'dicteit', definition: 'Dictar' },
+    { word: 'Die', pronunciation: 'dai', definition: 'Morir' },
 
     { word: 'Drill', pronunciation: 'druil', definition: 'Perforar' },
 
