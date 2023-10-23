@@ -61,7 +61,6 @@ const words = [
     { word: 'Above', pronunciation: 'abov', definition: 'Arriba de' },
     { word: 'Address', pronunciation: 'adres', definition: 'Dirección' },
 
-
     { word: 'Backpack', pronunciation: 'bak-pak', definition: 'Mochila' },
     { word: 'Breakfast', pronunciation: '', definition: 'Desayuno' },
     { word: 'Backup', pronunciation: 'bak-up', definition: 'Respaldo' },
@@ -119,6 +118,7 @@ const words = [
     { word: 'Coordinates', pronunciation: 'coordenets', definition: 'Coordenadas' },
     { word: 'Cost', pronunciation: 'cost', definition: 'Costo' },
     { word: 'Course', pronunciation: 'kors', definition: 'Curso' },
+    { word: 'Cycle', pronunciation: 'saicol', definition: 'Ciclo' },
 
     { word: 'Dinner', pronunciation: 'diner', definition: 'Cena' },
     { word: 'Data', pronunciation: 'deira', definition: 'Datos' },
@@ -605,6 +605,16 @@ const regularVerbs = [
     { word: 'Create', pronunciation: 'crieit', definition: 'Crear' },
     { word: 'Cross', pronunciation: 'cros', definition: 'Cruzar - Cruz' },
     { word: 'Cry', pronunciation: 'krai', definition: 'Llorar' },
+    { word: 'Damage', pronunciation: 'dameich', definition: 'Dañar - Daño' },
+    { word: 'Dance', pronunciation: 'dans', definition: 'Bailar - Danza' },
+    { word: 'Dare', pronunciation: 'der', definition: 'Atreverse - Atrevimiento - Desafiar' },
+    { word: 'Date', pronunciation: 'deit', definition: 'Citar - Cita - Fecha' },
+    { word: 'Discuss', pronunciation: 'des-cas', definition: 'Conversar - Debatir' },
+    { word: 'Decide', pronunciation: 'desaid', definition: 'Decidir' },
+    { word: 'Declare', pronunciation: 'de-cler', definition: 'Declarar' },
+    { word: 'Decline', pronunciation: 'di-clain', definition: 'Rechazar - Declinar - Disminución' },
+    { word: 'Decorate', pronunciation: 'decoreit', definition: 'Decorar' },
+    { word: 'Decrease', pronunciation: 'de-kruis', definition: 'Disminuir' },
 
 
     { word: 'Drill', pronunciation: 'druil', definition: 'Perforar' },
