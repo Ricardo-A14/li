@@ -1589,7 +1589,7 @@ const findIndexIn = convertTechnology.indexOf(findIn);
 const DeleteWords = () => {
 
     // allWords.splice(0, 548);
-    regVerbs.splice(0, 113);
+    regVerbs.splice(0, 134);
 
     console.log(regVerbs.length);
     console.log(regVerbs);
