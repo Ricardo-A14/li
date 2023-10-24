@@ -632,10 +632,68 @@ const regularVerbs = [
     { word: 'Develop', pronunciation: 'develep', definition: 'Desarrollar' },
     { word: 'Dictate', pronunciation: 'dicteit', definition: 'Dictar' },
     { word: 'Die', pronunciation: 'dai', definition: 'Morir' },
-
+    { word: 'Direct', pronunciation: '', definition: 'Dirigir - Directo' },
+    { word: 'Disagree', pronunciation: 'dise-gri', definition: 'No estar de acuerdo' },
+    { word: 'Disappear', pronunciation: 'disapir', definition: 'Desaparecer' },
+    { word: 'Discover', pronunciation: 'deskaver', definition: 'Descubrir' },
+    { word: 'Discuss', pronunciation: 'deskas', definition: 'Conversar - Discutir' },
+    { word: 'Distribute', pronunciation: 'destribiut', definition: 'Distribuir' },
+    { word: 'Distribute', pronunciation: 'destribiut', definition: 'Distribuir' },
+    { word: 'Distribute', pronunciation: 'destribiut', definition: 'Distribuir' },
+    { word: 'Distribute', pronunciation: 'destribiut', definition: 'Distribuir' },
+    { word: 'Dispose', pronunciation: 'dispos', definition: 'Disponer - Colocar - Resolver' },
+    { word: 'Distribute', pronunciation: 'destribiut', definition: 'Distribuir' },
+    { word: 'Dive', pronunciation: 'daiv', definition: 'Bucear - Sumergirse' },
+    { word: 'Divide', pronunciation: 'devaid', definition: 'Dividir' },
+    { word: 'Donate', pronunciation: 'doneit', definition: 'Donar' },
+    { word: 'Doubt', pronunciation: 'dout', definition: 'Dudar - Duda' },
+    { word: 'Download', pronunciation: 'daun-loud', definition: 'Dudar - Duda' },
+    { word: 'Dream', pronunciation: 'dru-im', definition: 'Soñar - Sueño' },
+    { word: 'Dress', pronunciation: 'dru-es', definition: 'Vertirse - Vestido - Vestir' },
     { word: 'Drill', pronunciation: 'druil', definition: 'Perforar' },
+    { word: 'Drop', pronunciation: 'drop', definition: 'Dejar caer - caida - descenso - Gota' },
+    { word: 'Dry', pronunciation: 'dray', definition: 'Secar - Seco' },
 
+    { word: 'Earn', pronunciation: 'ern', definition: 'Obtener - Ganar' },
+
+    { word: 'FIlter', pronunciation: 'filter', definition: 'Filtrar' },
+    { word: 'Fix', pronunciation: 'fix', definition: 'Reparar' },
+
+    { word: 'Guide', pronunciation: 'gaid', definition: 'Guiar - Guía' },
+
+    { word: 'Handle', pronunciation: 'jendel', definition: 'Manejar - Controlar' },
+    { word: 'Heat', pronunciation: 'jit', definition: 'Calentar - Calor' },
+    { word: 'Hunt', pronunciation: 'jant', definition: 'Cazar - Caza' },
+    { word: 'Hydrate', pronunciation: 'jai-drueit', definition: 'Hidratar' },
+
+    { word: 'Improve', pronunciation: 'impruf', definition: 'Mejorar' },
+    { word: 'Increase', pronunciation: 'incruis', definition: 'Aumentar - Aumento' },
+
+    { word: 'Learn', pronunciation: 'lern', definition: 'Aprender' },
+    { word: 'Like', pronunciation: 'laik', definition: 'Gustar - Como' },
+
+    { word: 'Manage', pronunciation: 'menech', definition: 'Manejar - Administrar' },
+    { word: 'Merge', pronunciation: 'merch', definition: 'unir' },
+
+    { word: 'Open', pronunciation: 'open', definition: 'Abrir - Abierto' },
+    { word: 'Organize', pronunciation: 'organais', definition: 'Organizar' },
+
+    { word: 'Penetrate', pronunciation: 'penetreit', definition: 'Penetrar' },
+    { word: 'Plan', pronunciation: 'plan', definition: 'Planear - Plan' },
+    { word: 'Plant', pronunciation: 'plant', definition: 'Plantar - Planta' },
+    { word: 'Play', pronunciation: 'pley', definition: 'Jugar - Reproducir - Tocar' },
+    { word: 'Poison', pronunciation: 'poisen', definition: 'Envenenar - Veneno' },
     { word: 'Present', pronunciation: 'present', definition: 'Presentar' },
+    { word: 'Press', pronunciation: 'pres', definition: 'Presionar - Prensa' },
+    { word: 'Print', pronunciation: 'print', definition: 'Imprimir - Impresión' },
+    { word: 'Program', pronunciation: 'prou-gram', definition: 'Programar - Programa' },
+    { word: 'Promise', pronunciation: 'promes', definition: 'Prometer - Promesa' },
+    { word: 'Protect', pronunciation: 'pro-tect', definition: 'Proteger' },
+    { word: 'Provide', pronunciation: 'provaid', definition: 'Proporcionar - Proveer' },
+    { word: 'Purify', pronunciation: 'piure-fay', definition: 'Purificar' },
+
+    { word: 'Recover', pronunciation: 'ruecover', definition: 'Recuperar' },
+    { word: 'Report', pronunciation: 'report', definition: 'Reportar - Reporte' },
 
 ];
 const irregularVerbs = [];
