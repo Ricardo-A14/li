@@ -669,7 +669,31 @@ const regularVerbs = [
     { word: 'Improve', pronunciation: 'impruf', definition: 'Mejorar' },
     { word: 'Increase', pronunciation: 'incruis', definition: 'Aumentar - Aumento' },
 
+    { word: 'Learn', pronunciation: 'lern', definition: 'Aprender' },
+    { word: 'Like', pronunciation: 'laik', definition: 'Gustar - Como' },
+
+    { word: 'Manage', pronunciation: 'menech', definition: 'Manejar - Administrar' },
+    { word: 'Merge', pronunciation: 'merch', definition: 'unir' },
+
+    { word: 'Open', pronunciation: 'open', definition: 'Abrir - Abierto' },
+    { word: 'Organize', pronunciation: 'organais', definition: 'Organizar' },
+
+    { word: 'Penetrate', pronunciation: 'penetreit', definition: 'Penetrar' },
+    { word: 'Plan', pronunciation: 'plan', definition: 'Planear - Plan' },
+    { word: 'Plant', pronunciation: 'plant', definition: 'Plantar - Planta' },
+    { word: 'Play', pronunciation: 'pley', definition: 'Jugar - Reproducir - Tocar' },
+    { word: 'Poison', pronunciation: 'poisen', definition: 'Envenenar - Veneno' },
     { word: 'Present', pronunciation: 'present', definition: 'Presentar' },
+    { word: 'Press', pronunciation: 'pres', definition: 'Presionar - Prensa' },
+    { word: 'Print', pronunciation: 'print', definition: 'Imprimir - Impresión' },
+    { word: 'Program', pronunciation: 'prou-gram', definition: 'Programar - Programa' },
+    { word: 'Promise', pronunciation: 'promes', definition: 'Prometer - Promesa' },
+    { word: 'Protect', pronunciation: 'pro-tect', definition: 'Proteger' },
+    { word: 'Provide', pronunciation: 'provaid', definition: 'Proporcionar - Proveer' },
+    { word: 'Purify', pronunciation: 'piure-fay', definition: 'Purificar' },
+
+    { word: 'Recover', pronunciation: 'ruecover', definition: 'Recuperar' },
+    { word: 'Report', pronunciation: 'report', definition: 'Reportar - Reporte' },
 
 ];
 const irregularVerbs = [];
