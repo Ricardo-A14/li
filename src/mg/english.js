@@ -693,7 +693,11 @@ const regularVerbs = [
     { word: 'Purify', pronunciation: 'piure-fay', definition: 'Purificar' },
 
     { word: 'Recover', pronunciation: 'ruecover', definition: 'Recuperar' },
-    { word: 'Report', pronunciation: 'report', definition: 'Reportar - Reporte' },
+    { word: 'Report', pronunciation: 'rueport', definition: 'Reportar - Reporte' },
+    { word: 'Rescue', pronunciation: 'rues-kiu', definition: 'Rescatar - Rescate' },
+    { word: 'Return', pronunciation: 'rue-tern', definition: 'Devolver' },
+    { word: 'Save', pronunciation: 'seif', definition: 'Salvar - Guardar - Ahorrar' },
+    { word: 'Search', pronunciation: 'serch', definition: 'Buscar - Búsqueda' },
 
 ];
 const irregularVerbs = [];

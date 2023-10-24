@@ -1,12 +1,12 @@
 import Words from "../../Components/Words";
 
 import { words, auxiliarVerbs, regularVerbs } from "../../mg/english";
+import Notes from "../../Components/Notes";
 
 import "./Home.css";
 
 const Home = () => {
-
-  const allWords = [...words, ...auxiliarVerbs, ...regularVerbs]
+  const allWords = [...words, ...auxiliarVerbs, ...regularVerbs];
 
   return (
     <div className="home">
@@ -22,6 +22,7 @@ const Home = () => {
         return <Words word={element} index={index} key={index} />;
       })}
 
+      {<Notes />}
     </div>
   );
 };
