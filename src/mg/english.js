@@ -615,7 +615,6 @@ const regularVerbs = [
     { word: 'Decline', pronunciation: 'di-clain', definition: 'Rechazar - Declinar - Disminución' },
     { word: 'Decorate', pronunciation: 'decoreit', definition: 'Decorar' },
     { word: 'Decrease', pronunciation: 'de-kruis', definition: 'Disminuir' },
-
     { word: 'Dehydrate', pronunciation: 'dijai-dreit', definition: 'Deshidratar' },
     { word: 'Delay', pronunciation: 'delei', definition: 'Retrasar - Posponer - Retraso' },
     { word: 'Delete', pronunciation: 'delit', definition: 'Eliminar' },
@@ -696,9 +695,31 @@ const regularVerbs = [
     { word: 'Report', pronunciation: 'rueport', definition: 'Reportar - Reporte' },
     { word: 'Rescue', pronunciation: 'rues-kiu', definition: 'Rescatar - Rescate' },
     { word: 'Return', pronunciation: 'rue-tern', definition: 'Devolver' },
+
     { word: 'Save', pronunciation: 'seif', definition: 'Salvar - Guardar - Ahorrar' },
     { word: 'Search', pronunciation: 'serch', definition: 'Buscar - Búsqueda' },
+    { word: 'Seem', pronunciation: 'sim', definition: 'Parecer' },
+    { word: 'Share', pronunciation: 'cher', definition: 'Compartir' },
+    { word: 'Shave', pronunciation: 'sheiv', definition: 'Afeitar' },
+    { word: 'Smell', pronunciation: 'smel', definition: 'Oler' },
+    { word: 'Spell', pronunciation: 'spell', definition: 'Deletrear - Hechizo' },
+    { word: 'Spend', pronunciation: 'spend', definition: 'Gastar' },
+    { word: 'Spill', pronunciation: 'spil', definition: 'Derramar' },
+    { word: 'Start', pronunciation: 'start', definition: 'Comenzar' },
+    { word: 'Stop', pronunciation: 'stap', definition: 'Detenerse' },
+    { word: 'Study', pronunciation: 'stady', definition: 'Estudiar' },
+    { word: 'Support', pronunciation: 'se-port', definition: 'Apoyar - Financiar - Apoyo' },
+    { word: 'Survive', pronunciation: 'servaiv', definition: 'Sobrevivir' },
 
+    { word: 'Test', pronunciation: 'test', definition: 'Probar - Prueba' },
+    { word: 'Tie', pronunciation: 'tai', definition: 'Atar - Corbata - Empate' },
+    { word: 'Travel', pronunciation: 'truavol', definition: 'Viajar - Viaje' },
+
+    { word: 'Use', pronunciation: 'ius', definition: 'Usar - Uso' },
+
+    { word: 'Walk', pronunciation: 'uok', definition: 'Caminar - Caminata' },
+    { word: 'Warn', pronunciation: 'uorn', definition: 'Advertir' },
+    { word: 'Whistle', pronunciation: 'uisel', definition: 'Silbar - Silbato' },
 ];
 const irregularVerbs = [];
 const auxiliarVerbs = [

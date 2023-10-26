@@ -1551,6 +1551,9 @@ const setReVerbs = new Set(convertReVerbs);
 const regVerbs = Array.from(setReVerbs);
 
 const convertIrreVerbs = irregularVerbs.split(`\n`);
+const setIrreVerbs = new Set(convertIrreVerbs);
+const irreVerbs = Array.from(setIrreVerbs);
+
 const convertPhrasalVerbs = phrasalVerbs.split('\n');
 
 
@@ -1589,10 +1592,11 @@ const findIndexIn = convertTechnology.indexOf(findIn);
 const DeleteWords = () => {
 
     // allWords.splice(0, 548);
-    regVerbs.splice(0, 225);
+    regVerbs.splice(0, 245);
+    irreVerbs.splice(0, 0);
 
-    console.log(regVerbs.length);
-    console.log(regVerbs);
+    console.log(irreVerbs.length);
+    console.log(irreVerbs);
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
 }
