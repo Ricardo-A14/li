@@ -1593,7 +1593,7 @@ const DeleteWords = () => {
 
     // allWords.splice(0, 548);
     // regVerbs.splice(0, 245);
-    irreVerbs.splice(0, 18);
+    irreVerbs.splice(0, 39);
 
     console.log(irreVerbs.length);
     console.log(irreVerbs);

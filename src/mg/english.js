@@ -602,6 +602,7 @@ const regularVerbs = [
     { word: 'Counsel', pronunciation: 'kaun-sol', definition: 'Aconsejar - Consejo' },
     { word: 'Count', pronunciation: 'kaunt', definition: 'Contar' },
     { word: 'Cover', pronunciation: 'cover', definition: 'Cubrir' },
+    { word: 'Crawl', pronunciation: 'crol', definition: 'Arrastrarse' },
     { word: 'Create', pronunciation: 'crieit', definition: 'Crear' },
     { word: 'Cross', pronunciation: 'cros', definition: 'Cruzar - Cruz' },
     { word: 'Cry', pronunciation: 'krai', definition: 'Llorar' },
@@ -724,11 +725,11 @@ const regularVerbs = [
 ];
 const irregularVerbs = [
     { word: 'Arise', pronunciation: '', definition: 'Levantarse - Surgir' },
+
     { word: 'Be', pronunciation: 'bi', definition: 'Ser - Estar' },
     { word: 'Become', pronunciation: 'bicom', definition: 'Convertirse' },
     { word: 'Begin', pronunciation: 'biguin', definition: 'Comenzar' },
     { word: 'Bend', pronunciation: 'bend', definition: 'Doblar' },
-
     { word: 'Bet', pronunciation: 'bet', definition: 'Apostar - Apuesta' },
     { word: 'Bite', pronunciation: 'bait', definition: 'Morder - Mordedura' },
     { word: 'Beat', pronunciation: 'bit', definition: 'Derrotar' },
@@ -739,6 +740,33 @@ const irregularVerbs = [
     { word: 'Bring', pronunciation: 'bring', definition: 'Traer' },
     { word: 'Build', pronunciation: 'bild', definition: 'Construir' },
     { word: 'Buy', pronunciation: 'bay', definition: 'Comprar' },
+
+    { word: 'Catch', pronunciation: 'catch', definition: 'Atrapar' },
+    { word: 'Choose', pronunciation: 'chus', definition: 'Elegir' },
+    { word: 'Cling', pronunciation: 'cling', definition: 'Aferrarse' },
+    { word: 'Come', pronunciation: 'com', definition: 'Venir' },
+    { word: 'Cost', pronunciation: 'cost', definition: 'Costar - Costo' },
+    { word: 'Cut', pronunciation: 'cot', definition: 'Cortar - Corte' },
+
+    { word: 'Deal', pronunciation: 'dil', definition: 'Negociar - Trato' },
+    { word: 'Dig', pronunciation: 'dig', definition: 'Cavar - Excavar' },
+    { word: 'Do', pronunciation: 'du', definition: 'Hacer' },
+    { word: 'Draw', pronunciation: 'drou', definition: 'Dibujar' },
+    { word: 'Drink', pronunciation: 'druink', definition: 'Beber' },
+    { word: 'Drive', pronunciation: 'druaiv', definition: 'Conducir' },
+    { word: 'Dwell', pronunciation: 'druell', definition: 'Habitar - Morar' },
+
+    { word: 'Eat', pronunciation: 'it', definition: 'Comer' },
+
+    { word: 'Fall', pronunciation: 'fol', definition: 'Caer' },
+    { word: 'Feed', pronunciation: 'fid', definition: 'Alimentarse' },
+    { word: 'Feel', pronunciation: 'fil', definition: 'Sentir' },
+    { word: 'Fight', pronunciation: 'fait', definition: 'Pelear' },
+    { word: 'Find', pronunciation: 'faind', definition: 'Encontrar' },
+    { word: 'Flee', pronunciation: 'fli', definition: 'Huir' },
+
+
+
 
 ];
 const auxiliarVerbs = [
