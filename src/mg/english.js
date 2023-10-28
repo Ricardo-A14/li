@@ -56,6 +56,7 @@ const words = [
     { word: 'Automation', pronunciation: 'oro-meichen', definition: 'Automatización' },
     { word: 'Avalanche', pronunciation: 'ava-lantsh', definition: 'Avalancha' },
     { word: 'Away', pronunciation: 'e-uey', definition: 'Lejos' },
+    { word: 'Awake', pronunciation: 'a-ueik', definition: 'Despierto' },
     { word: 'Axe', pronunciation: 'aks', definition: 'Hacha' },
     { word: 'Among', pronunciation: 'amang', definition: 'Entre' },
     { word: 'Above', pronunciation: 'abov', definition: 'Arriba de' },
@@ -721,7 +722,25 @@ const regularVerbs = [
     { word: 'Warn', pronunciation: 'uorn', definition: 'Advertir' },
     { word: 'Whistle', pronunciation: 'uisel', definition: 'Silbar - Silbato' },
 ];
-const irregularVerbs = [];
+const irregularVerbs = [
+    { word: 'Arise', pronunciation: '', definition: 'Levantarse - Surgir' },
+    { word: 'Be', pronunciation: 'bi', definition: 'Ser - Estar' },
+    { word: 'Become', pronunciation: 'bicom', definition: 'Convertirse' },
+    { word: 'Begin', pronunciation: 'biguin', definition: 'Comenzar' },
+    { word: 'Bend', pronunciation: 'bend', definition: 'Doblar' },
+
+    { word: 'Bet', pronunciation: 'bet', definition: 'Apostar - Apuesta' },
+    { word: 'Bite', pronunciation: 'bait', definition: 'Morder - Mordedura' },
+    { word: 'Beat', pronunciation: 'bit', definition: 'Derrotar' },
+    { word: 'Bleed', pronunciation: 'blid', definition: 'Sangrar' },
+    { word: 'Blow', pronunciation: 'blou', definition: 'Soplar' },
+    { word: 'Break', pronunciation: 'breik', definition: 'Romper - Quebrar - Pausa' },
+    { word: 'Breed', pronunciation: 'brid', definition: 'Criar - Raza' },
+    { word: 'Bring', pronunciation: 'bring', definition: 'Traer' },
+    { word: 'Build', pronunciation: 'bild', definition: 'Construir' },
+    { word: 'Buy', pronunciation: 'bay', definition: 'Comprar' },
+
+];
 const auxiliarVerbs = [
     { word: 'Can', pronunciation: 'can', definition: 'Poder' },
     { word: 'Could', pronunciation: 'cud', definition: 'Podría' },
@@ -729,11 +748,17 @@ const auxiliarVerbs = [
     { word: 'Would', pronunciation: 'wud', definition: '' },
     { word: 'Should', pronunciation: 'shud', definition: 'Debería' },
     { word: 'May', pronunciation: 'mey', definition: 'Puede' },
-    { word: 'Might', pronunciation: 'mait', definition: '' },
+    { word: 'Might', pronunciation: 'mait', definition: 'Podría' },
     { word: 'Must', pronunciation: 'most', definition: 'Debe' },
 ];
 const phrasalVerbs = [];
 
+const verbToBe = [
+    { word: 'am', pronunciation: 'am', definition: 'Ser' },
+    { word: 'Is', pronunciation: 'is', definition: 'Ser' },
+    { word: 'Are', pronunciation: 'arr', definition: 'Ser' },
+
+]
 
 const findWord = regularVerbs.map((element) => {
     return element.word.toLowerCase();

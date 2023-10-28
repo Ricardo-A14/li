@@ -1,8 +1,15 @@
 import { NavLink } from "react-router-dom";
 
+import AppContext from "../../Context";
+
+
 import "./Header.css";
+import { useContext } from "react";
 
 const Header = () => {
+
+  const { ActiveNote } = useContext(AppContext);
+
   return (
     <div className="header">
       <nav className="nav">
@@ -19,7 +26,9 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="nav_right"></div>
+        <div className="nav_right">
+          <div onClick={() => ActiveNote()}>Notas</div>
+        </div>
       </nav>
     </div>
   );

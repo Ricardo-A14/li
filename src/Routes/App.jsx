@@ -5,20 +5,30 @@ import Introduction from "../Pages/Introduction";
 import Rules from "../Pages/Rules";
 import Layout from "../Containers/Layout";
 
+import AppContext from "../Context";
+import useInitialState from "../Hooks/useInitialState";
+
+
 import "./App.css";
 
 function App() {
+
+  const initialState = useInitialState();
+
   return (
     <div className="app">
-      <BrowserRouter>
-        <Layout>
-          <Routes>
-            <Route path="/li" element={<Home />} />
-            <Route path="/li/introduccion" element={<Introduction />} />
-            <Route path="/li/reglas" element={<Rules />} />
-          </Routes>
-        </Layout>
-      </BrowserRouter>
+      <AppContext.Provider value={initialState}>
+        <BrowserRouter>
+          <Layout>
+            <Routes>
+              <Route path="/li" element={<Home />} />
+              <Route path="/li/introduccion" element={<Introduction />} />
+              <Route path="/li/reglas" element={<Rules />} />
+            </Routes>
+          </Layout>
+        </BrowserRouter>
+      </AppContext.Provider>
+
     </div>
   );
 }

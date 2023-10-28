@@ -3,9 +3,15 @@ import Words from "../../Components/Words";
 import { words, auxiliarVerbs, regularVerbs } from "../../mg/english";
 import Notes from "../../Components/Notes";
 
+import AppContext from '../../Context';
+
 import "./Home.css";
+import { useContext } from "react";
 
 const Home = () => {
+
+  const { notesState } = useContext(AppContext);
+
   const allWords = [...words, ...auxiliarVerbs, ...regularVerbs];
 
   return (
@@ -22,7 +28,8 @@ const Home = () => {
         return <Words word={element} index={index} key={index} />;
       })}
 
-      {<Notes />}
+      {notesState ? <Notes /> : null}
+
     </div>
   );
 };
