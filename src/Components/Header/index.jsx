@@ -27,7 +27,7 @@ const Header = () => {
           </ul>
         </div>
         <div className="nav_right">
-          <div onClick={() => ActiveNote()}>Notas</div>
+          <div className="notes" onClick={() => ActiveNote()}>Notas</div>
         </div>
       </nav>
     </div>
