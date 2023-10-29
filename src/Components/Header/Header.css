@@ -57,5 +57,6 @@
 }
 
 .notes {
+    cursor: pointer;
     color: black;
 }

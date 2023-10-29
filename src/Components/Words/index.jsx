@@ -14,16 +14,13 @@ const Word = ({ word, index }) => {
   const [handleColor, setHandleColor] = useState(false);
 
   const Background = () => {
-
     setHandleColor(!handleColor);
     if (handleColor) {
-
       setBackgroundColor('chartreuse');
       setColor('black');
     } else {
       setBackgroundColor('red');
       setColor('white');
-
     }
   }
 
