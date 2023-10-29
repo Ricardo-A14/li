@@ -1,6 +1,6 @@
 import Words from "../../Components/Words";
 
-import { words, auxiliarVerbs, regularVerbs } from "../../mg/english";
+import { words, regularVerbs, irregularVerbs, phrasalVerbs, verbToBe, auxiliarVerbs } from "../../mg/english";
 import Notes from "../../Components/Notes";
 
 import AppContext from '../../Context';
@@ -12,7 +12,7 @@ const Home = () => {
 
   const { notesState } = useContext(AppContext);
 
-  const allWords = [...words, ...auxiliarVerbs, ...regularVerbs];
+  const allWords = [...words, ...verbToBe, ...auxiliarVerbs, ...regularVerbs, ...irregularVerbs, ...phrasalVerbs];
 
   return (
     <div className="home">

@@ -1555,6 +1555,8 @@ const setIrreVerbs = new Set(convertIrreVerbs);
 const irreVerbs = Array.from(setIrreVerbs);
 
 const convertPhrasalVerbs = phrasalVerbs.split('\n');
+const setPhraVerbs = new Set(convertPhrasalVerbs);
+const phraVerbs = Array.from(setPhraVerbs).sort();
 
 
 /*--- GROUPING WORDS ---*/
@@ -1593,12 +1595,17 @@ const DeleteWords = () => {
 
     // allWords.splice(0, 548);
     // regVerbs.splice(0, 245);
-    irreVerbs.splice(0, 39);
 
-    console.log(irreVerbs.length);
-    console.log(irreVerbs);
+    // irreVerbs.splice(0, 39);
+    phraVerbs.splice(0, 0);
+
     // console.log(allWordsAndVerbs.length);
     // console.log(allWordsAndVerbs);
+
+    // console.log(irreVerbs.length);
+    // console.log(irreVerbs);
+    console.log(phraVerbs.length);
+    console.log(phraVerbs);
 }
 DeleteWords();
 

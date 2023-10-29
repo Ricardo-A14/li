@@ -765,9 +765,43 @@ const irregularVerbs = [
     { word: 'Find', pronunciation: 'faind', definition: 'Encontrar' },
     { word: 'Flee', pronunciation: 'fli', definition: 'Huir' },
 
+];
+const phrasalVerbs = [
+    { word: 'Bring back', pronunciation: 'bruinc bac', definition: 'Devolver' },
+
+    { word: 'Come back', pronunciation: 'com bak', definition: 'Regresar' },
+
+    { word: 'Find out', pronunciation: 'faind aut', definition: 'Descubrir - Averiguar' },
+    { word: 'Figure out', pronunciation: 'figuiur aut', definition: 'Resolver - Entender' },
+
+    { word: 'Go out', pronunciation: 'gou aut', definition: 'Salir - Dejar de funcionar' },
+    { word: 'Give up', pronunciation: 'giv up', definition: 'Rendirse - dejar' },
+    { word: 'Get up', pronunciation: 'get ap', definition: 'Levantarse' },
+    { word: 'Get up', pronunciation: 'get ap', definition: 'Levantarse' },
+    { word: 'Go over', pronunciation: 'gou over', definition: 'Revisar - Repasar' },
+    { word: 'Go through', pronunciation: 'gou tru', definition: 'Atravesar - Pasar' },
+
+    { word: 'Wake up', pronunciation: 'ueik ap', definition: 'Despertarse' },
+
+    { word: 'Look up', pronunciation: 'luc ap', definition: 'Mirar hacia arriba' },
+    { word: 'Look for', pronunciation: 'luc for', definition: 'Buscar' },
+
+    { word: 'Pick up', pronunciation: 'pic ap', definition: 'Recoger - Levantar' },
+    { word: 'Put on', pronunciation: 'put on', definition: 'Vestirse - Aplicarse' },
+
+    { word: 'Run into', pronunciation: 'ruan into', definition: 'Encontrarse con algo/alguien' },
+
+    { word: 'Turn on', pronunciation: 'torn on', definition: 'Encender' },
+    { word: 'Turn off', pronunciation: 'torn of', definition: 'Apagar' },
+    { word: 'Take off', pronunciation: 'teik of', definition: 'Despegar - Quitarse' },
+    { word: 'Throw away', pronunciation: 'tru euey', definition: 'Tirar - Deshacerse' },
 
 
-
+];
+const verbToBe = [
+    { word: 'am', pronunciation: 'am', definition: 'Ser' },
+    { word: 'Is', pronunciation: 'is', definition: 'Ser' },
+    { word: 'Are', pronunciation: 'arr', definition: 'Ser' },
 ];
 const auxiliarVerbs = [
     { word: 'Can', pronunciation: 'can', definition: 'Poder' },
@@ -779,14 +813,6 @@ const auxiliarVerbs = [
     { word: 'Might', pronunciation: 'mait', definition: 'Podría' },
     { word: 'Must', pronunciation: 'most', definition: 'Debe' },
 ];
-const phrasalVerbs = [];
-
-const verbToBe = [
-    { word: 'am', pronunciation: 'am', definition: 'Ser' },
-    { word: 'Is', pronunciation: 'is', definition: 'Ser' },
-    { word: 'Are', pronunciation: 'arr', definition: 'Ser' },
-
-]
 
 const findWord = regularVerbs.map((element) => {
     return element.word.toLowerCase();
@@ -818,7 +844,7 @@ const FindRepeatedWords = () => {
 // console.log(`Number of words: ${findWord.length}`);
 
 
-export { words, auxiliarVerbs, regularVerbs };
+export { words, regularVerbs, irregularVerbs, phrasalVerbs, verbToBe, auxiliarVerbs };
 
 
 
