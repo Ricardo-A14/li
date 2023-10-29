@@ -9,7 +9,23 @@ recognition.lang = "en-US";
 recognition.interimResult = true;
 
 const Word = ({ word, index }) => {
-  const [handleWord, setHandleWord] = useState(null);
+  const [backgrounColor, setBackgroundColor] = useState('red');
+  const [color, setColor] = useState('white');
+  const [handleColor, setHandleColor] = useState(false);
+
+  const Background = () => {
+
+    setHandleColor(!handleColor);
+    if (handleColor) {
+
+      setBackgroundColor('chartreuse');
+      setColor('black');
+    } else {
+      setBackgroundColor('red');
+      setColor('white');
+
+    }
+  }
 
   const Talk = (word) => {
     recognition.start();
@@ -58,7 +74,11 @@ const Word = ({ word, index }) => {
             <button className="talk" onClick={() => Talk(word.word)}>
               Talk
             </button>
-            <div className="index">{index}</div>
+            <div
+              onClick={() => Background()}
+              style={{ backgroundColor: backgrounColor, color: color }}
+              className="index">{index}
+            </div>
           </div>
 
         </div>

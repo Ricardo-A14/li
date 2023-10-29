@@ -69,7 +69,7 @@
     border-radius: 10px;
     font-weight: bold;
     font-size: 12px;
-    background-color: chartreuse;
+    /* background-color: red; */
 }
 
 .pronunciation {
@@ -183,6 +183,7 @@
         height: 20px;
         margin: 2px;
     }
+
     .talk_container {
         width: 60%;
         /* background-color: cadetblue; */
