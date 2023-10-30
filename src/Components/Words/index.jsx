@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import "./Word.css";
 
@@ -9,18 +9,17 @@ recognition.lang = "en-US";
 recognition.interimResult = true;
 
 const Word = ({ word, index }) => {
-  const [backgrounColor, setBackgroundColor] = useState('red');
-  const [color, setColor] = useState('white');
   const [handleColor, setHandleColor] = useState(false);
+  const [backgrounColor, setBackgroundColor] = useState('red');
+
 
   const Background = () => {
     setHandleColor(!handleColor);
     if (handleColor) {
-      setBackgroundColor('chartreuse');
-      setColor('black');
-    } else {
       setBackgroundColor('red');
-      setColor('white');
+    }
+    else if (!handleColor) {
+      setBackgroundColor('chartreuse');
     }
   }
 
@@ -73,7 +72,7 @@ const Word = ({ word, index }) => {
             </button>
             <div
               onClick={() => Background()}
-              style={{ backgroundColor: backgrounColor, color: color }}
+              style={{ backgroundColor: backgrounColor }}
               className="index">{index}
             </div>
           </div>
