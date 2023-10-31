@@ -9,18 +9,20 @@ recognition.lang = "en-US";
 recognition.interimResult = true;
 
 const Word = ({ word, index }) => {
-  const [handleColor, setHandleColor] = useState(false);
-  const [backgrounColor, setBackgroundColor] = useState('red');
 
+  const [backgroundColor, setBackgroundColor] = useState('red');
 
-  const Background = () => {
-    setHandleColor(!handleColor);
-    if (handleColor) {
-      setBackgroundColor('red');
+  useEffect(() => {
+    const storedColor = localStorage.getItem(`color-${index}`);
+    if (storedColor) {
+      setBackgroundColor(storedColor);
     }
-    else if (!handleColor) {
-      setBackgroundColor('chartreuse');
-    }
+  }, [index]);
+
+  const HandleBackground = () => {
+    const newColor = backgroundColor === 'red' ? 'chartreuse' : 'red';
+    setBackgroundColor(newColor);
+    localStorage.setItem(`color-${index}`, newColor);
   }
 
   const Talk = (word) => {
@@ -71,9 +73,11 @@ const Word = ({ word, index }) => {
               Talk
             </button>
             <div
-              onClick={() => Background()}
-              style={{ backgroundColor: backgrounColor }}
-              className="index">{index}
+              key={index}
+              style={{ backgroundColor: backgroundColor }}
+              className="index"
+              onClick={() => HandleBackground()}
+            >{index}
             </div>
           </div>
 
