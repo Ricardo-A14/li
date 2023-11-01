@@ -1,7 +1,7 @@
 .word_c {
     max-width: 1400px;
     margin: 0 auto;
-    /* background-color: brown; */
+    background-color: brown;
 }
 
 .word {
@@ -10,7 +10,7 @@
     width: 70%;
     height: 40px;
     margin: 5px auto;
-    /* background-color: peru; */
+    background-color: peru;
 }
 
 .word_item {
@@ -39,12 +39,35 @@
     background-color: #60d4ea;
 }
 
+.meaning_word {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 280px;
+    height: 100%;
+    font-size: 14px;
+    margin: 0 4px;
+    border-radius: 8px;
+    color: black;
+    background-color: #60d4ea;
+}
+
 .talk_container {
     display: flex;
     justify-content: space-between;
-    width: 50%;
+    width: 40%;
     height: 25px;
-    /* background-color: darkgoldenrod; */
+    background-color: palegoldenrod;
+}
+
+.defi {
+    display: flex;
+    align-items: center;
+    width: 55%;
+    margin: 0 4px;
+    height: 100%;
+    font-weight: bold;
+    background-color: thistle;
 }
 
 .talk {
@@ -70,13 +93,12 @@
     font-weight: bold;
     font-size: 12px;
     cursor: pointer;
-    /* background-color: chartreuse; */
 }
 
 .pronunciation {
     width: 60%;
     margin: 0 4px;
-    /* background-color: aquamarine; */
+    background-color: aquamarine;
 }
 
 .listen {
@@ -88,40 +110,26 @@
     margin: 0 4px;
 }
 
-.meaning_word {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 250px;
-    height: 100%;
-    font-size: 14px;
-    margin: 0 4px;
-    border-radius: 8px;
-    color: black;
-    background-color: #60d4ea;
-}
-
-.defi {
-    display: flex;
-    align-items: center;
-    width: 50%;
-    margin: 0 4px;
-    height: 100%;
-    font-weight: bold;
-    /* background-color: brown; */
-}
 
 
-
-@media(max-width: 760px) {
+@media(max-width: 820px) {
     .word {
-        width: 80%;
+        width: 90%;
     }
 }
+
+@media(max-width: 760px) {}
 
 @media(max-width: 660px) {
     .word {
         width: 100%;
+    }
+}
+
+@media(max-width: 570px) {
+    .defi {
+        font-weight: normal;
+        width: 70%;
     }
 }
 
@@ -134,20 +142,12 @@
         width: 270px;
     }
 
-    /* .index {
-        display: none;
-    } */
 }
 
 @media(max-width: 510px) {
 
     .pronunciation_container {
         font-weight: normal;
-    }
-
-    .defi {
-        font-weight: normal;
-        width: 70%;
     }
 
     .index {
@@ -158,11 +158,14 @@
     }
 }
 
-@media (max-width: 410px) {
+@media(max-width: 480px) {
 
     .word {
         height: 60px;
     }
+}
+
+@media (max-width: 410px) {
 
     .meaning_word {
         flex-direction: column;

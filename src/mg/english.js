@@ -682,7 +682,7 @@ const regularVerbs = [
     { word: 'Penetrate', pronunciation: 'penetreit', definition: 'Penetrar' },
     { word: 'Plan', pronunciation: 'plan', definition: 'Planear - Plan' },
     { word: 'Plant', pronunciation: 'plant', definition: 'Plantar - Planta' },
-    { word: 'Play', pronunciation: 'pley', definition: 'Jugar - Reproducir - Tocar' },
+    { word: 'Play', pronunciation: 'pley', definition: 'Jugar - Reproducir' },
     { word: 'Poison', pronunciation: 'poisen', definition: 'Envenenar - Veneno' },
     { word: 'Present', pronunciation: 'present', definition: 'Presentar' },
     { word: 'Press', pronunciation: 'pres', definition: 'Presionar - Prensa' },
