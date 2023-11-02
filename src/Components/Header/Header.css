@@ -60,3 +60,12 @@
     cursor: pointer;
     color: black;
 }
+
+.learned_words {
+    display: flex;
+    justify-content: space-between;
+    width: 85px;
+    height: 25px;
+    color: black;
+    background-color: rgb(209, 208, 208);
+}

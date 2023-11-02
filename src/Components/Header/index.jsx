@@ -6,9 +6,11 @@ import AppContext from "../../Context";
 import "./Header.css";
 import { useContext } from "react";
 
+
+
 const Header = () => {
 
-  const { ActiveNote } = useContext(AppContext);
+  const { ActiveNote, wordCounter } = useContext(AppContext);
 
   return (
     <div className="header">
@@ -26,8 +28,13 @@ const Header = () => {
             </li>
           </ul>
         </div>
+
         <div className="nav_right">
           <div className="notes" onClick={() => ActiveNote()}>Notas</div>
+          <div className="learned_words">
+            <p>Palabras: </p>
+            <span>{wordCounter.length}</span>
+          </div>
         </div>
       </nav>
     </div>

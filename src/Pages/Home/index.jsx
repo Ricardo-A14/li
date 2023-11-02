@@ -15,7 +15,6 @@ const Home = () => {
 
   const allWords = [...words, ...verbToBe, ...auxiliarVerbs, ...regularVerbs, ...irregularVerbs, ...phrasalVerbs];
 
-  const newWords = allWords.map((obj) => ({ ...obj, color: 'red' }));
 
   return (
     <div className="home">
@@ -27,7 +26,7 @@ const Home = () => {
         </div>
       </div>
 
-      {newWords.map((element, index) => {
+      {allWords.map((element, index) => {
         return <Words word={element} index={index} key={index} />;
       })}
 

@@ -1,7 +1,7 @@
 .word_c {
     max-width: 1400px;
     margin: 0 auto;
-    background-color: brown;
+    /* background-color: brown; */
 }
 
 .word {
@@ -10,7 +10,7 @@
     width: 70%;
     height: 40px;
     margin: 5px auto;
-    background-color: peru;
+    /* background-color: peru; */
 }
 
 .word_item {
@@ -57,7 +57,7 @@
     justify-content: space-between;
     width: 40%;
     height: 25px;
-    background-color: palegoldenrod;
+    /* background-color: palegoldenrod; */
 }
 
 .defi {
@@ -67,7 +67,7 @@
     margin: 0 4px;
     height: 100%;
     font-weight: bold;
-    background-color: thistle;
+    /* background-color: thistle; */
 }
 
 .talk {
@@ -98,7 +98,7 @@
 .pronunciation {
     width: 60%;
     margin: 0 4px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
 }
 
 .listen {

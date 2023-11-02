@@ -4,6 +4,8 @@ import { useState } from "react";
 const useInitialState = () => {
 
     const [notesState, setNotesState] = useState(false);
+    const [wordCounter, setWordCounter] = useState([]);
+
 
 
     // FUNCTIONS.
@@ -14,7 +16,9 @@ const useInitialState = () => {
 
 
     return {
-        notesState, ActiveNote
+        notesState,
+        ActiveNote,
+        wordCounter, setWordCounter
     };
 }
 
