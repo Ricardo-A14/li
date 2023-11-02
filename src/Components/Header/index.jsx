@@ -2,11 +2,9 @@ import { NavLink } from "react-router-dom";
 
 import AppContext from "../../Context";
 
-
 import "./Header.css";
+
 import { useContext } from "react";
-
-
 
 const Header = () => {
 
