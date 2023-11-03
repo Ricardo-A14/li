@@ -3,7 +3,21 @@ import "./Rules.css";
 const Rules = () => {
   return (
     <div className="rules">
+
+      <div className="rule_container verbs">
+        <h1>Verbos</h1>
+        <p>
+          Son palabras que describen una acción, ejemplo: Caminar, Aprender.
+        </p>
+        <ul>
+          <li>
+            <span>-</span> Me gusta <span>nadar </span>, donde <span>nadar</span> es el verbo.
+          </li>
+        </ul>
+      </div>
+
       <div className="rule_container noun">
+
         <h1>Sustantivo</h1>
         <p>
           Son palabras que nombran a personas, animales, cosas, lugares,

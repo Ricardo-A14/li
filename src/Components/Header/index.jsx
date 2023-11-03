@@ -24,6 +24,9 @@ const Header = () => {
             <li>
               <NavLink to="/li/reglas/">Reglas</NavLink>
             </li>
+            <li>
+              <NavLink to="/li/reglas-ingles/">Reglas ingles</NavLink>
+            </li>
           </ul>
         </div>
 

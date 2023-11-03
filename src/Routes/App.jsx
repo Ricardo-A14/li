@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../Pages/Home";
 import Introduction from "../Pages/Introduction";
 import Rules from "../Pages/Rules";
+import EnglishRules from "../Pages/EnglishRules";
 import Layout from "../Containers/Layout";
 
 import AppContext from "../Context";
@@ -24,6 +25,7 @@ function App() {
               <Route path="/li" element={<Home />} />
               <Route path="/li/introduccion" element={<Introduction />} />
               <Route path="/li/reglas" element={<Rules />} />
+              <Route path="/li/reglas-ingles" element={<EnglishRules />} />
             </Routes>
           </Layout>
         </BrowserRouter>
