@@ -5,12 +5,15 @@ const useInitialState = () => {
 
     const [notesState, setNotesState] = useState(false);
     const [wordCounter, setWordCounter] = useState([]);
-
+    const [activeMobileMenu, setActiveMobileMenu] = useState(false);
 
 
     // FUNCTIONS.
     const ActiveNote = () => {
         setNotesState(!notesState);
+    }
+    const HandlerMobileMenu = () => {
+        setActiveMobileMenu(!activeMobileMenu);
     }
 
 
@@ -18,7 +21,9 @@ const useInitialState = () => {
     return {
         notesState,
         ActiveNote,
-        wordCounter, setWordCounter
+        wordCounter, setWordCounter,
+        activeMobileMenu,
+        HandlerMobileMenu
     };
 }
 

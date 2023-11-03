@@ -1,23 +1,26 @@
 import { NavLink } from "react-router-dom";
 
+import { useContext } from "react";
 import AppContext from "../../Context";
 
 import "./Header.css";
 
-import { useContext } from "react";
-
 const Header = () => {
 
-  const { ActiveNote, wordCounter } = useContext(AppContext);
+  const { ActiveNote, wordCounter, HandlerMobileMenu } = useContext(AppContext);
+
 
   return (
     <div className="header">
       <nav className="nav">
         <div className="nav_left">
-          <div className="mobile_menu">
-            <div></div>
-            <div></div>
-            <div></div>
+          <div
+            className="nav_menu"
+            onClick={() => HandlerMobileMenu()}
+          >
+            <div className="d"></div>
+            <div className="d"></div>
+            <div className="d"></div>
           </div>
 
           <ul>

@@ -1,0 +1,29 @@
+.mobile_menu {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 60px;
+    width: 100%;
+    min-height: 91.7vh;
+    background-color: white;
+    /* background-color: papayawhip; */
+}
+
+.mobile_menu ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90%;
+    height: 86vh;
+    list-style: none;
+    /* background-color: chartreuse; */
+}
+
+.mobile_menu ul li {
+    /* background-color: aquamarine; */
+}
+
+.mobile_menu ul li a {
+    text-decoration: none;
+}

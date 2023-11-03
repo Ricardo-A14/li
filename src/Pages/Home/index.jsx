@@ -1,5 +1,6 @@
 
 import { useContext, useEffect, useState } from "react";
+
 import Words from "../../Components/Words";
 
 import { words, regularVerbs, irregularVerbs, phrasalVerbs, verbToBe, auxiliarVerbs } from "../../mg/english";
@@ -16,6 +17,7 @@ const Home = () => {
   const allWords = [...words, ...verbToBe, ...auxiliarVerbs, ...regularVerbs, ...irregularVerbs, ...phrasalVerbs];
 
 
+
   return (
     <div className="home">
       <div className="words_container">
@@ -29,6 +31,7 @@ const Home = () => {
       {allWords.map((element, index) => {
         return <Words word={element} index={index} key={index} />;
       })}
+
 
       {notesState ? <Notes /> : null}
 
