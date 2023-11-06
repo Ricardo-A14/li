@@ -3,6 +3,8 @@ import Header from "../../Components/Header";
 import { useContext } from "react";
 
 import MobileMenu from '../../Components/MobileMenu';
+import Notes from "../../Components/Notes";
+
 
 import AppContext from "../../Context";
 
@@ -10,7 +12,7 @@ import "./Layout.css";
 
 const Layout = ({ children }) => {
 
-  const { activeMobileMenu } = useContext(AppContext);
+  const { activeMobileMenu, notesState } = useContext(AppContext);
 
 
   return (
@@ -19,6 +21,8 @@ const Layout = ({ children }) => {
         <Header />
         {activeMobileMenu && <MobileMenu />}
         {children}
+        {notesState ? <Notes /> : null}
+
       </div>
     </div>
   );

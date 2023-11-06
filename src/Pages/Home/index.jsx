@@ -4,7 +4,6 @@ import { useContext, useEffect, useState } from "react";
 import Words from "../../Components/Words";
 
 import { words, regularVerbs, irregularVerbs, phrasalVerbs, verbToBe, auxiliarVerbs } from "../../mg/english";
-import Notes from "../../Components/Notes";
 
 import AppContext from '../../Context';
 
@@ -12,7 +11,6 @@ import "./Home.css";
 
 const Home = () => {
 
-  const { notesState } = useContext(AppContext);
 
   const allWords = [...words, ...verbToBe, ...auxiliarVerbs, ...regularVerbs, ...irregularVerbs, ...phrasalVerbs];
 
@@ -31,10 +29,6 @@ const Home = () => {
       {allWords.map((element, index) => {
         return <Words word={element} index={index} key={index} />;
       })}
-
-
-      {notesState ? <Notes /> : null}
-
     </div>
   );
 };
